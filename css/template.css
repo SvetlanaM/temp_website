@@ -2,7 +2,9 @@
 *********************************************/
 html {height:100%; margin-bottom:1px; overflow-y:scroll;}
 body {background-color:#fff; color:#000; font-family: 'Open Sans', sans-serif; height:100%; text-align:center;}
-
+a:hover {
+	color: #004d72;
+}
 /* LAYOUT
 *********************************************/
 #overall {height:100%; margin:0 auto; text-align:left; width:100%;}
@@ -25,30 +27,30 @@ body {background-color:#fff; color:#000; font-family: 'Open Sans', sans-serif; h
 .ie7 .group {zoom:1;}
 
 body {
-    font-size: 16px;      
+    font-size: 16px;
      }
-div { 
-  overflow: -moz-scrollbars-horizontal; 
-  overflow: "visible"; 
+div {
+  overflow: -moz-scrollbars-horizontal;
+  overflow: "visible";
 }
 h2, p {
     color: #004d72;
 }
 h2 {
     font-size: 2.25em;
-    font-weight: bold;   
+    font-weight: bold;
    }
 h3 {
     font-size: 2.25em;
     font-weight: bold;
-    color: #fffff !important;   
-   }   
+    color: #fffff !important;
+   }
 p {
     font-size: 1em;
-} 
-   
+}
+
 iframe#ipad-landscape {
-    overflow-y: visible !important;            
+    overflow-y: visible !important;
                 }
 /*HEADER*/
 
@@ -56,11 +58,11 @@ iframe#ipad-landscape {
     top: 0;
     bottom: 0;
     left: 0;
-    right: 0;    
+    right: 0;
         }
 
 .header-wraper {
-    background-color: #def1f7; 
+    background-color: #def1f7;
     padding: 5px 0;
     height: 42px;
 }
@@ -68,22 +70,22 @@ iframe#ipad-landscape {
     padding: 5px 0;
 }
 .mail {
-    background: url(/templates/greycircle/images/email.png) 0 24% no-repeat;    
+    background: url(/templates/greycircle/images/email.png) 0 24% no-repeat;
     background-size: 24px 16px;
       }
 .mail a {
-    color: #004d72;      
-        }      
+    color: #004d72;
+        }
 .mobil {
-    background: url(/templates/greycircle/images/phone.png) 7% 25% no-repeat;    
+    background: url(/templates/greycircle/images/phone.png) 7% 25% no-repeat;
     background-size: 18px 18px;
-    color: #004d72;   
+    color: #004d72;
       }
-     
+
 .header-kontakt li {
     padding-left: 30px;
-} 
- 
+}
+
 /*MENU*/
 
 .main-nav {
@@ -92,7 +94,7 @@ iframe#ipad-landscape {
 }
 
 .navbar-nav li a {
-    text-transform: uppercase; 
+    text-transform: uppercase;
     margin: 0px 15px;
 }
 
@@ -107,26 +109,26 @@ iframe#ipad-landscape {
 .navbar-nav {
     float: none;
     display: inline-block;
-    margin-left: -9em;    
+    margin-left: -9em;
 }
-/*pokraèování od svìty - centrování menu*/
+/*pokraï¿½ovï¿½nï¿½ od svï¿½ty - centrovï¿½nï¿½ menu*/
 .navbar-fixed-bottom, .navbar-fixed-top {
     position: absolute;
 }
 
 li.item-101 {
-    position: absolute; 
-    top: 84px; 
-    left: 50%; 
-    transform: translate(-50%, -50%);  
+    position: absolute;
+    top: 84px;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: 2200;
 }
 
 li.item-147 {
-    padding-left: 10em; 
+    padding-left: 10em;
 }
 li.item-147, li.item-130, li.item-146 {
-    z-index: 2000; 
+    z-index: 2000;
 }
 .nav>li>a:focus, .nav>li>a:hover {
     text-decoration: none;
@@ -134,22 +136,22 @@ li.item-147, li.item-130, li.item-146 {
 }
 .nav li a {
   color: #004d72;
-}        
+}
 .nav li a:hover {
   text-decoration: underline;
   color: #3494c2 !important;
 }
 .current li a img {
-z-index: 1000;
-position: absolute;
-top: 17px;
-bottom: 0px;
-right: 7px;
-margin-right: auto;
-left: -51px;
-height: 150px;
-margin-left: auto;
-margin: auto;
+z-index:ï¿½1000;
+position:ï¿½absolute;
+top:ï¿½17px;
+bottom:ï¿½0px;
+right:ï¿½7px;
+margin-right:ï¿½auto;
+left:ï¿½-51px;
+height:ï¿½150px;
+margin-left:ï¿½auto;
+margin:ï¿½auto;
 }
 
 .current {
@@ -158,10 +160,10 @@ padding: 0px 10px;
 
 /*LOGIN-PRIHLASOVACI FORMULAR*/
 
-/* ************ èást formátování loginu od Sveti ********* */
+/* ************ ï¿½ï¿½st formï¿½tovï¿½nï¿½ loginu od Sveti ********* */
 
 input:-webkit-autofill {
-  	
+
     -webkit-box-shadow: 0 0 0 1000px #f3f6f7 inset;
 }
 
@@ -173,7 +175,7 @@ button.btn.btn-primary {
   	text-transform: uppercase;
   font-weight: bold;
   border-radius:2em;
-  
+
 }
 
 .userdata .control-group .controls {
@@ -184,8 +186,9 @@ label.element-invisible {
   margin-bottom: -20px;
 }
 .control-group.checkbox {
-  margin-top: 50px;
-    width: 50%;
+  margin-top: 22px;
+    width: 40%;
+		float: left;
 }
 
 label.control-label {
@@ -263,14 +266,14 @@ span.glyphicon {
 
 .body-overlayed {
     overflow: visible;
-} 
+}
 
-    /* *******konec formátování loginu od Sveti ******* */
+    /* *******konec formï¿½tovï¿½nï¿½ loginu od Sveti ******* */
 
-/* LOGIN PØIHLÁŠENÍ POKRAÈOVÁNÍ STYLOVÁNÍ */
+/* LOGIN Pï¿½IHLï¿½ï¿½ENï¿½ POKRAï¿½OVï¿½Nï¿½ STYLOVï¿½Nï¿½ */
 
 .menu-user {
-    overflow: hidden;       
+    overflow: hidden;
 }
 .nav.menuakcionar {
     margin-right: 136px;
@@ -281,7 +284,7 @@ span.glyphicon {
     border-radius: 22px;
 }
 .nav.menuakcionar a:hover {
-    text-decoration: underline;                      
+    text-decoration: underline;
 }
 .container.zpravy {
     min-height: 300px;
@@ -291,17 +294,17 @@ span.glyphicon {
 #sbox-content {
     background-color: transparent !important;
 }
-.modaltest { 
+.modaltest {
     left: 39em;
     display: block;
     z-index: 1000;
     float: right;
     position: absolute;
     top: 65px;
-    color: #004d72 !important; 
-    text-transform: uppercase; 
+    color: #004d72 !important;
+    text-transform: uppercase;
     text-decoration: none  !important;
-    height: 40px !important;       
+    height: 40px !important;
 }
 #leftcolumn div {
   display: none;
@@ -311,7 +314,7 @@ span.glyphicon {
     background-color: #ffffff;
     border-radius: 20px;
     padding: 20px 45px;
-    font-size: 1em; 
+    font-size: 1em;
         /*logo v loginu*/
     background-image: url(/images/logo-GC.png);
     background-repeat: no-repeat;
@@ -326,37 +329,37 @@ span.glyphicon {
 }
 .add-on {
     color: #004d72 !important;
-    margin-top: 20px; 
-    text-transform: uppercase; 
+    margin-top: 20px;
+    text-transform: uppercase;
         }
 label {
     font-weight: 600 !important;
-    font-size: 0.26em; 
+    font-size: 0.26em;
     display: block;
     padding-top: 15px;
-    margin-left: 60px; 
-      } 
+    margin-left: 60px;
+      }
 input {
-    background-color: #def1f7 !important;       
-      }             
+    background-color: #def1f7 !important;
+      }
 for.modlgn-username {
-    color: red;             
-}        
+    color: red;
+}
 .control-label {
     margin: -4px 0;
     font-size: 0.42em;
     font-weight: 400 !important;
-    color: #004d72 !important;               
+    color: #004d72 !important;
 }
 input.inputbox .checkbox {
-    margin: 0px 0;      
-}               
+    margin: 0px 0;
+}
 .unstyled {
     display: none;
    /* display: inline-block;
     font-size: 0.8em;
     color: #004d72 !important;
-    margin-top: 20px;  */    
+    margin-top: 20px;  */
 }
 #sbox-content div {
   display: block !important !important;
@@ -364,35 +367,60 @@ input.inputbox .checkbox {
   font-weight: bold;  /*uprava fontu nadpis loginu*/
 }
 
-/* pozicování obsahu èlánkù */
+/* pozicovï¿½nï¿½ obsahu ï¿½lï¿½nkï¿½ */
 div.info-obsah {
-    display: inline-block;           
+    display: inline-block;
 }
 
 
-/*registrovaný uživatel zobrazení username */
+/*registrovanï¿½ uï¿½ivatel zobrazenï¿½ username */
 div.username {
     display: block;
-    left: 40em;
-    position: relative;
-    top: -40px;
+  	right: 390px;
+    position: absolute;
+    top: 65px;
     color: #004d72 !important;
-    font-weight: 600 !important;  
+    font-weight: 600 !important;
 
 }
 
-/*registrovaný uživatel - pozicování logout*/
+li.item-149.current.active::after {
+	content: "/";
+	font-weight: bold;
+	float: right;
+	margin-top: -30px;
+	color: #004d72;
+}
+
+li.item-150.current.active::before {
+	content: "/";
+	font-weight: bold;
+	float: left;
+	margin-top: 10px;
+	color: #004d72;
+}
+
+
+.slider-content-wrapper {
+	margin-top: -20px;
+}
+
+li.current.active {
+    font-weight: bold;
+}
+/*registrovanï¿½ uï¿½ivatel - pozicovï¿½nï¿½ logout*/
 .logout {
     display: block;
-    left: 31em;
-    position: relative;
-    top: -62px;
+
+    position: absolute;
+		top: 65px;
+    right: 228px;
     color: #535353 !important;
     text-transform: uppercase !important;
     text-decoration: underline !important;
 }
 .logout:hover {
-    color: #ababab !important;    
+    color: #ababab !important;
         }
 
 /*SLIDER*/
@@ -403,19 +431,19 @@ div.username {
     width: 100%;
     min-width: 100%;
     position: relative;
-    margin-top: -137px; 
-    z-index: 800;              
+    margin-top: -137px;
+    z-index: 800;
          }
 .container-fluid {
     margin-top: 148px;
-}         
+}
 .nivo-caption {
     position: absolute;
     left: 0px;
     bottom: 0px;
     right: 0px;
     top: 0px;
-    background: none;    
+    background: none;
     margin: auto;
     color: #fff;
     width: 680px;
@@ -431,33 +459,33 @@ div.username {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-}   
+}
 .nivo-caption p {
-    margin-bottom: 50px;                
-              }  
+    margin-bottom: 50px;
+              }
 .nivo-title {
     font-size: 72px;
     font-weight: bold;
     line-height: 1.2;
     max-width: 800px;
-    text-align: center;                 
+    text-align: center;
              }
 .nivo-posttitle {
     font-size: 18px;
     font-weight: bold;
     line-height: 1.5;
-    color: #ffffff; 
+    color: #ffffff;
 }
 .nivo-readmore {
     font-size: 24px;
-    font-weight: bold; 
-    color: #dceaf0;              
-             }  
+    font-weight: bold;
+    color: #dceaf0;
+             }
 
-/*SLIDER - SHROMAZDENI A VÝROÈNÍ ZPRÁVY*/
+/*SLIDER - SHROMAZDENI A Vï¿½ROï¿½Nï¿½ ZPRï¿½VY*/
 
 .layout-corpora .slider-title {
-    margin-top: 0; 
+    margin-top: 0;
 }
 .slider-title {
     display: inline !important;
@@ -473,12 +501,12 @@ h1.sp-smart-title {
     text-transform: uppercase;
     max-width: 400px;
     float: left;
-    color: #ffffff !important; 
+    color: #ffffff !important;
     height: 200px;
     margin-top: 104px;
- /*   
-    padding-bottom: 62px;*/                  
-                    } 
+ /*
+    padding-bottom: 62px;*/
+                    }
 p.sp-smart-posttitle {
     font-size: 2.1em;
     font-weight: 400;
@@ -488,69 +516,69 @@ p.sp-smart-posttitle {
     margin-top: 104px;
    /* margin-left: 730px;     */
     /*margin-top: -5em;  */
-    color: #ffffff !important;           
-                    }                                                                              
+    color: #ffffff !important;
+                    }
 div.slider-item.item-1.animate-in {
-    background-size: inherit !important;                            
+    background-size: inherit !important;
                             }
-                            
+
 .shromazdeni.nivoslider.nivo-caption.nivo-pretitle p {
     font-size: 2.5em !important;
-    text-transform: uppercase !important;                                                        
+    text-transform: uppercase !important;
                                                    }
 
 
 div.shromazdeni.nivoslider.nivo-caption.nivo-title {
     font-size: 1.5em !important;
-    text-transform: uppercase !important;                                                    
+    text-transform: uppercase !important;
                                                 }
 div.slider-controllers a {
-    display: none !important; 
-              
+    display: none !important;
+
                       }
-             
-/*COMPANY-WRAPER - OBSAH K FIRMÌ A CERTIFIKÁTU*/
+
+/*COMPANY-WRAPER - OBSAH K FIRMï¿½ A CERTIFIKï¿½TU*/
 
 #company-wraper {
-    padding: 120px 0;                    
+    padding: 120px 0;
                 }
 .certifikat {
-    position: relative;        
+    position: relative;
             }
 .certifikat img {
     position: absolute;
     left: 0px;
     bottom: 0px;
     right: 0px;
-    top: 100%; 
+    top: 100%;
     margin: 0 auto;
     width: 169px;
-    height: 239px;           
-            }     
+    height: 239px;
+            }
 
-/*REGISTROVANÍ ÈLENOVÉ*/
+/*REGISTROVANï¿½ ï¿½LENOVï¿½*/
 
 .uvod {
-    height: 100%;      
+    height: 100%;
       }
 .clanek {
-    height: 100%;      
-      }      
+    height: 100%;
+      }
 
-/*ZPRÁVY */
+/*ZPRï¿½VY */
 
 .container.zpravy {
     margin-top: 60px;
     margin-bottom: 60px;
     display: block;
-    text-align: top;            
+    text-align: top;
 }
 .container.zpravy h2 {
     padding-bottom: 0.5em;
 }
-               
 
-/* SHROMÁŽDÌNÍ - OBSAH*/
+
+/* SHROMï¿½ï¿½Dï¿½Nï¿½ - OBSAH*/
 
 p.mod-articles-category-introtext {
     padding-bottom: 1.3em;
@@ -567,7 +595,7 @@ ul.category-module li {
     font-weight: 500;
     color: #004d72;
     max-width: 373px;
-    height: 120px;    
+    height: 120px;
     text-transform: uppercase;
     /*text-decoration: underline;   */
 }
@@ -578,10 +606,10 @@ ul.category-module li p {
     text-transform: none !important;
     text-decoration: none !important;
     max-width: 280px;
-    margin-right: 14px;                            
+    margin-right: 14px;
 }
 
-/* VÝROÈNÍ ZPRÁVY - OBSAH */
+/* Vï¿½ROï¿½Nï¿½ ZPRï¿½VY - OBSAH */
 
 ul.category-modulezprava li {
     display: inline-block;
@@ -594,7 +622,7 @@ ul.category-modulezprava li {
     font-weight: 500;
     color: #004d72;
     max-width: 373px;
-    height: 120px;        
+    height: 120px;
     text-transform: uppercase;
     /*text-decoration: underline;  */
 }
@@ -605,14 +633,14 @@ ul.category-modulezprava li p {
     text-transform: none !important;
     text-decoration: none !important;
     max-width: 280px;
-    margin-right: 14px;                                          
+    margin-right: 14px;
 }
-            
+
 /*BANNER-WRAPER*/
 
 .banner-wraper {
     background: url(/images/banner-bg.png) 0 0 no-repeat;
-    background-size: cover; 
+    background-size: cover;
     height: 280px;
     padding-top: 102px;
     left: 0px;
@@ -620,37 +648,39 @@ ul.category-modulezprava li p {
     right: 0px;
     top: 0px;
     text-align: center;
-} 
-   
+}
+
 .custombanner-logo p, .custombanner p, .custombanner p a {
     color: #ffffff;
-    line-height: 1.4;    
+    line-height: 1.4;
         }
 .custombanner-logo p img {
-    vertical-align: middle; 
-        }        
+    vertical-align: middle;
+        }
 .custombanner p a {
     text-decoration: underline;
-}         
+}
 .banner-url {
     margin-left: -5px;
-} 
+}
 
 
 /*VIDEO-WRAPER*/
 
 .video-wraper {
+		background: url(https://trello-attachments.s3.amazonaws.com/54b8ff42b5f46a60ad33f838/1600x308/468b288576dca683bd688cd578286ed1/video-bg.jpg) no-repeat;
     height: auto;
     min-height: 100%;
     padding-top: 80px;
     margin-bottom: -115px;
-} 
+		background-position: -146px -35px;
+}
 .video1, .video2, .video3 {
-    padding: 60px 5.21%;             
-             } 
+    padding: 60px 5.21%;
+             }
 .html5-video-player {
-    background-color: transparent !important;  
-}                             
+    background-color: transparent !important;
+}
 
 /*FOOTER-WRAPER*/
 
@@ -664,37 +694,37 @@ ul.category-modulezprava li p {
 .footer-box {
     padding-top: 20px;
     color: #ffffff;
-    line-height: 1.7;        
+    line-height: 1.7;
             }
 .footer-top {
-    padding-top: 116px;            
+    padding-top: 116px;
             }
 .kontakt-header {
     color: #ffffff !important;
     padding-bottom: 20px;
-    margin-top: -20px;                
-                }  
+    margin-top: -20px;
+                }
 .customfooter p {
-    color: #ffffff !important;  
-    font-size: 0.875em; 
-    line-height: 1.2; 
-        } 
+    color: #ffffff !important;
+    font-size: 0.875em;
+    line-height: 1.2;
+        }
 .customfooter p em {
-    line-height: 1.2; 
-        }                                 
+    line-height: 1.2;
+        }
 .fakturace-top {
-    margin-top: 90px;            
+    margin-top: 90px;
             }
 
-            
-/*FORMULÁØ-STYLOVÁNÍ*/
-           
+
+/*FORMULï¿½ï¿½-STYLOVï¿½Nï¿½*/
+
 #kontakt-form {
     margin-top: 50px;
     background-color: #ffffff;
     border-radius: 10px;
     padding: 20px 45px;
-    font-size: 1.3em;          
+    font-size: 1.3em;
               }
 .jsn-bootstrap .jsn-form-content .message {
     width: 110%;
@@ -704,19 +734,62 @@ ul.category-modulezprava li p {
     width: 80%;
     padding-top: 25px;
     padding-bottom: 16px;
-    background: #f4f6f8 url(/templates/greycircle/images/name.png) -8px -13px no-repeat!important;  
+		background-color: #fff;
+}
+
+button.btn.btn-primary.jsn-form-submit.btn-submit {
+	width: 100%;
+}
+
+.i-form1,
+.i-form2 ,
+.i-form3 {
+ background: #004d72;
+ width: 80px;
+ height: 80px;
+ border-radius: 100%;
+ position: absolute;
+ left: -9px;
+ top: 9px;}
+
+.i-form1 img,
+.i-form2 img,
+.i-form3 img {
+position: absolute;
+ height: 32px;
+ margin-right: auto;
+ left: 20px;
+ margin-left: auto;
+ top: 22px;
+}
+
+.i-p img{
+	position: absolute;
+	left: 24px;
+}
+
+.i-i img {
+	position: absolute;
+	left: 18px;
+}
+
+.i-form2 {
+	left: 520px;
+}
+
+.i-form3 {
+	top: 105px;
 }
 
 .controls .row-fluid .email {
     width: 80%;
     padding-top: 25px;
     padding-bottom: 16px;
-    background: #f4f6f8 url(/templates/greycircle/images/mail.png) -8px -13px no-repeat!important; 
 }
 
 textarea {
     border: 1px solid red;
-    background: #f4f6f8 url(/templates/greycircle/images/text.png) -8px -13px no-repeat!important; 
+		margin-top: 25px;
 }
 
 input, textarea {
@@ -739,49 +812,50 @@ input, textarea {
     font-size: 1.8em;
 }
 .btn-toolbar {
-    margin-left: 10px !important;         
+    margin-left: 10px !important;
              }
-button.btn.btn-primary {
+#sbox-content > div > form > div.userdata > div:nth-child(4) > div > button {
     padding: 10px 30px !important;
-    width: 100% !important;
+    width: 55% !important;
+		float: left;
 }
-             
+
 .jsn-text-center {
     display: none;
 }
 .jsn-input-xlarge-fluid {
-    margin-left: -30px;                    
+    margin-left: -30px;
                         }
 input#1.jsn-input-medium-fluid {
-    margin-left: -5px; 
+    margin-left: -5px;
                        }
 .row-fluid {
-    margin-left: 11px !important;   /*ovlivní všechny boxy*/                              
-                                     }                      
+    margin-left: 11px !important;   /*ovlivnï¿½ vï¿½echny boxy*/
+                                     }
 
-/*FOOTER-BOTTOM-WRAPER - PATIÈKA STRÁNKY*/
+/*FOOTER-BOTTOM-WRAPER - PATIï¿½KA STRï¿½NKY*/
 
 .bottom-footer-wrapper {
     padding: 15px;
 
 }
 .customcopyright p {
-    font-size: 0.7em !important;                 
+    font-size: 0.7em !important;
                  }
-             
-
-             
-               
-/*RESPONZIVNÍ FORMÁTOVÁNÍ - najít nejmenší rozlišení, kde to vypadá dobøe a od dalšího pak ladit - máme to od 1366px*/
 
 
-@media only screen and (max-width: 1680px) { /*zabalení bloku formátování*/
+
+
+/*RESPONZIVNï¿½ FORMï¿½TOVï¿½Nï¿½ - najï¿½t nejmenï¿½ï¿½ rozliï¿½enï¿½, kde to vypadï¿½ dobï¿½e a od dalï¿½ï¿½ho pak ladit - mï¿½me to od 1366px*/
+
+
+@media only screen and (max-width: 1680px) { /*zabalenï¿½ bloku formï¿½tovï¿½nï¿½*/
 
 .nivo-title {
     font-size: 60px !important;
     margin-top: 30px;
-    padding-bottom: 30px;              
-                  } 
+    padding-bottom: 30px;
+                  }
 }
 
 @media only screen and (max-width: 1366px) {
@@ -790,19 +864,19 @@ input#1.jsn-input-medium-fluid {
  font-size: 55px !important;
     margin-top: 44px;
     padding-bottom: 16px;
-} 
+}
 .nivo-posttitle {
-    font-size: 1.1em !important;                
+    font-size: 1.1em !important;
 }
 .nivo-caption p {
     margin-bottom: 30px;
 }
 .slider {
-   height: auto;     
+   height: auto;
         }
 #company-wraper {
-    padding: 50px 0;                 
-                }                                            
+    padding: 50px 0;
+                }
 }
 
 @media only screen and (max-width: 1280px) {
@@ -811,19 +885,19 @@ input#1.jsn-input-medium-fluid {
  font-size: 48px !important;
     margin-top: 90px;
     padding-bottom: 16px;
-} 
+}
 .nivo-posttitle {
-    font-size: 1em !important;                
+    font-size: 1em !important;
 }
 .nivo-caption p {
     margin-bottom: 30px;
 }
 .slider {
-   height: auto;     
+   height: auto;
         }
 #company-wraper {
-    padding: 50px 0;                 
-                }                                            
+    padding: 50px 0;
+                }
 }
 
 @media only screen and (max-width: 1170px) {
@@ -831,27 +905,27 @@ input#1.jsn-input-medium-fluid {
 .nivo-title {
     font-size: 36px !important;
     margin-top: 133px;
-    padding-bottom: 10px;              
-                  } 
+    padding-bottom: 10px;
+                  }
 .nivo-posttitle {
-    font-size: 1.1em !important;                
+    font-size: 1.1em !important;
 }
 .nivo-caption p {
     margin-bottom: 10px;
 }
 }
 
-@media only screen and (max-width: 1024px) { /*zabalení bloku formátování*/
+@media only screen and (max-width: 1024px) { /*zabalenï¿½ bloku formï¿½tovï¿½nï¿½*/
 
 h2, h3 {
     font-size: 1.6em;
-    font-weight: bold;   
+    font-weight: bold;
    }
 .jsn-bootstrap .jsn-form-content .message {
     width: 100% !important;
     max-width: 100% !important;
 }
-/*formátování registrovaný uživatel menu*/ 
+/*formï¿½tovï¿½nï¿½ registrovanï¿½ uï¿½ivatel menu*/
 .nav.menuakcionar {
     margin-right: 28px !important;
     }
@@ -861,8 +935,8 @@ h2, h3 {
 .username {
     left: 35em !important;
     }
-/*konec formátování registrované èásti*/
-/*formátování baneru*/ 
+/*konec formï¿½tovï¿½nï¿½ registrovanï¿½ ï¿½ï¿½sti*/
+/*formï¿½tovï¿½nï¿½ baneru*/
 .banner-wraper {
     height: 160px !important;
     left: 0px;
@@ -881,14 +955,14 @@ h2, h3 {
     width: 260px;
 }
 .custombanner-logo p span {
-    font-size: 36px !important;          
+    font-size: 36px !important;
 }
 .custombanner-logo p img {
     width: 160px !important;
 }
-/*formátování video*/
+/*formï¿½tovï¿½nï¿½ video*/
 .video-wraper {
-    margin-top: -38px;              
+    margin-top: -38px;
 }
 .customvideo {
     margin-left: -38px;
@@ -897,13 +971,13 @@ h2, h3 {
     margin-left: 5px;
 }
 .customfooter {
-    margin-right: 25px;              
+    margin-right: 25px;
 }
 .slider {
-   height: auto;     
+   height: auto;
         }
 #company-wraper {
-    padding: 50px 0;                 
+    padding: 50px 0;
                 }
 input#1.jsn-input-medium-fluid {
     width: 76% !important;
@@ -916,24 +990,24 @@ input#2.email.jsn-input-medium-fluid {
 }
 .jsn-master .jsn-input-xlarge-fluid {
     width: 99%;
-} 
+}
 h1.sp-smart-title {
-   font-size: 2.1em !important; 
-   margin-left: 10px; 
-   max-width: 340px !important;   
+   font-size: 2.1em !important;
+   margin-left: 10px;
+   max-width: 340px !important;
    height: 130px;
-   margin-top: 55px;          
+   margin-top: 55px;
                 }
 p.sp-smart-posttitle {
-   max-width: 340px !important; 
+   max-width: 340px !important;
    font-size: 1.3em !important;
-   margin-top: 50px;                         
-                    } 
-                                         
+   margin-top: 50px;
+                    }
 
-} /*konec zabalení bloku formátování*/  
 
-@media only screen and (max-width: 990px) { /*zabalení bloku formátování*/
+} /*konec zabalenï¿½ bloku formï¿½tovï¿½nï¿½*/
+
+@media only screen and (max-width: 990px) { /*zabalenï¿½ bloku formï¿½tovï¿½nï¿½*/
 li.item-101 {
     display: none !important;
 }
@@ -979,63 +1053,63 @@ background-color: #004d72;
      margin-top: 44px;
 }
 .nivo-posttitle {
-    font-size: 0.9em !important;                
+    font-size: 0.9em !important;
 }
 .certifikat img {
     display: none;
 }
 .customvideo p {
-    width: 100%;             
-             } 
+    width: 100%;
+             }
 .video1, .video2, .video3 {
     padding: 50px 15px;
-    background-size: 60% !important;                  
+    background-size: 60% !important;
              }
 iframe {
     width: 80% !important;
     height: 80% !important;
     display: inline;
-    margin-left: 40px;               
+    margin-left: 40px;
 }
-/*formátování kontaktního formuláøe*/
+/*formï¿½tovï¿½nï¿½ kontaktnï¿½ho formulï¿½ï¿½e*/
 .jsn-uniform.jsn-master .jsn-bootstrap .jsn-form-content .control-group {
     display: block;
     width: 85%;
-    } 
+    }
 .controls .jsn-input-medium-fluid {
     width: 100% !important;
     }
 .controls .row-fluid .email {
     width: 100% !important;
     margin-bottom: 4px;
-} 
+}
 .row-fluid {
     margin-left: 0px !important;
-}    
+}
 .jsn-master .jsn-input-xlarge-fluid {
     width: 100% !important;
     max-width: 99% !important;
 }
 .footer-wraper {
-    background-color: #316d89 !important;                                 
-                                     }   
+    background-color: #316d89 !important;
+                                     }
 }
 
-@media only screen and (max-width: 768px) { /*zabalení bloku formátování*/
+@media only screen and (max-width: 768px) { /*zabalenï¿½ bloku formï¿½tovï¿½nï¿½*/
 
 h2, h3 {
     font-size: 1.4em;
-    font-weight: bold;   
+    font-weight: bold;
    }
 
-.navbar-nav li:nth-child(3) /*schování støedového loga - odkazu na home*/{
+.navbar-nav li:nth-child(3) /*schovï¿½nï¿½ stï¿½edovï¿½ho loga - odkazu na home*/{
 	display: none !important;
 }
 .nav>li>a>img {
-    background-size: 50%;          
-              }   
+    background-size: 50%;
+              }
 
-/*formátování registrovaný uživatel menu*/ 
+/*formï¿½tovï¿½nï¿½ registrovanï¿½ uï¿½ivatel menu*/
 .menuakcionar {
     margin-right: 6px !important;
     z-index: 5000 !important;
@@ -1046,9 +1120,9 @@ h2, h3 {
 .username {
     left: 27em !important;
     }
-/*konec formátování registrované èásti*/
+/*konec formï¿½tovï¿½nï¿½ registrovanï¿½ ï¿½ï¿½sti*/
 
-/*formátování slideru*/ 
+/*formï¿½tovï¿½nï¿½ slideru*/
 .slider, .row-slider {
     z-index: 10 !important;
     max-height: 282px;
@@ -1057,14 +1131,14 @@ h2, h3 {
 .nivo-title {
    padding-top: 49px;
    font-size: 32px !important;
-   margin-top: 90px; 
+   margin-top: 90px;
    max-width: 700px;
    text-align: center;
    padding-left: 120px;
-   padding-right: 120px;         
+   padding-right: 120px;
             }
 .nivo-posttitle {
-   font-size: 14px;             
+   font-size: 14px;
                 }
 .nivo-readmore {
    font-size: 18px;
@@ -1074,43 +1148,43 @@ h2, h3 {
 }
 .nivoSlider {
     margin-top: -40px;
-        z-index: 10 !important;        
-            } 
-.container-fluid { 
-    margin-top: 49px !important; 
+        z-index: 10 !important;
+            }
+.container-fluid {
+    margin-top: 49px !important;
     max-height: 282px;
-            }             
+            }
 .slider-wraper {
-    margin-top: 0px !important; 
- }                   
+    margin-top: 0px !important;
+ }
 .slider {
    margin-top: 0px;
    height: auto;
-   z-index: 1;     
+   z-index: 1;
         }
-/*formátování slideru v registrované èásti*/ 
+/*formï¿½tovï¿½nï¿½ slideru v registrovanï¿½ ï¿½ï¿½sti*/
 .corpora-slider {
     margin-top: 0px;
-    }      
+    }
 h1.sp-smart-title {
-   font-size: 1.6em !important; 
-   margin-left: 10px; 
+   font-size: 1.6em !important;
+   margin-left: 10px;
    height: 130px;
-   margin-top: 97px;          
+   margin-top: 97px;
                 }
 p.sp-smart-posttitle {
    font-size: 1.2em !important;
    max-width: 250px !important;
-   margin-top: 70px;                         
-                    }                        
-/*konec formátování sliderù*/         
-/*formátování baneru*/
+   margin-top: 70px;
+                    }
+/*konec formï¿½tovï¿½nï¿½ sliderï¿½*/
+/*formï¿½tovï¿½nï¿½ baneru*/
 .banner-wraper {
-    width: 768px; 
-    overflow-y: visible !important;         
-               } 
+    width: 768px;
+    overflow-y: visible !important;
+               }
 .custombanner-logo p span {
-    font-size: 26px !important;          
+    font-size: 26px !important;
 }
 .custombanner-logo p img {
     width: 110px !important;
@@ -1127,87 +1201,87 @@ div.row.banner.text-left {
 .custombanner {
     width: 180px !important;
     margin-top: -55px;
-    margin-left: 0px;          
-} 
-/*formátování videa*/ 
+    margin-left: 0px;
+}
+/*formï¿½tovï¿½nï¿½ videa*/
 .customvideo p {
-    width: 100%;             
-             } 
+    width: 100%;
+             }
 .video1, .video2, .video3 {
     padding: 50px 15px;
-    background-size: 60% !important;                  
+    background-size: 60% !important;
              }
 iframe {
     width: 80% !important;
     height: 80% !important;
     display: inline;
-    margin-left: 40px;               
-}                                                              
+    margin-left: 40px;
+}
 .customvideotitle {
-    margin-left: 30px;                  
+    margin-left: 30px;
                   }
-/*formátování footeru*/
+/*formï¿½tovï¿½nï¿½ footeru*/
 .fakturace {
-    margin-top: 25px;       
-           }                      
+    margin-top: 25px;
+           }
 .footer-box {
-    margin-left: 16px;                         
-                             } 
+    margin-left: 16px;
+                             }
 .kontakt-header {
-    margin-left: 30px;                         
-                             }                                                 
- 
+    margin-left: 30px;
+                             }
+
 #company-wraper {
-    padding: 50px 0;                 
-                } 
+    padding: 50px 0;
+                }
 }
 
 @media only screen and (max-width: 736px) {
-/*formátování menu registrovaná èást*/
+/*formï¿½tovï¿½nï¿½ menu registrovanï¿½ ï¿½ï¿½st*/
 .modaltest {
-    top: 111px;       
+    top: 111px;
            }
 div.username {
-    top: -43px;         
+    top: -43px;
              }
 .logout {
-    top: -65px;    
-        } 
+    top: -65px;
+        }
 .container.zpravy {
     margin-top: -10px;
 }
 .jmoddiv p {
-    padding-bottom: 30px;     
-         }                
-/*formátování slideru*/   
+    padding-bottom: 30px;
+         }
+/*formï¿½tovï¿½nï¿½ slideru*/
 .nivo-title {
-    font-size: 26px !important; 
-    padding-top: 72px;      
-            } 
-/*formátování slideru v registrované èásti*/ 
+    font-size: 26px !important;
+    padding-top: 72px;
+            }
+/*formï¿½tovï¿½nï¿½ slideru v registrovanï¿½ ï¿½ï¿½sti*/
 .corpora-slider {
     margin-top: 0px;
     background-size: 121% !important;
-    }      
+    }
 h1.sp-smart-title {
-   font-size: 1.5em !important; 
-   margin-left: 10px; 
+   font-size: 1.5em !important;
+   margin-left: 10px;
    height: 130px;
-   margin-top: 97px;          
+   margin-top: 97px;
                 }
 p.sp-smart-posttitle {
    font-size: 1em !important;
    max-width: 250px !important;
-   margin-top: 80px;                         
-                    }                        
-/*konec formátování sliderù*/ 
-/*formátování baneru*/ 
+   margin-top: 80px;
+                    }
+/*konec formï¿½tovï¿½nï¿½ sliderï¿½*/
+/*formï¿½tovï¿½nï¿½ baneru*/
 .banner-wraper {
    width: 736px;
-   overflow-y: visible !important;            
+   overflow-y: visible !important;
                }
 .custombanner-logo p span {
-    font-size: 26px !important;          
+    font-size: 26px !important;
 }
 .custombanner-logo p img {
     width: 110px !important;
@@ -1224,27 +1298,27 @@ div.row.banner.text-left {
 .custombanner {
     width: 180px !important;
     margin-top: -55px;
-    margin-left: 30px;          
-}                                           
+    margin-left: 30px;
+}
 }
 
 @media only screen and (max-width: 667px){
 .nivo-caption {
-      width: 635px !important;        
+      width: 635px !important;
               }
 .footer-box {
-    font-size: 14px;        
+    font-size: 14px;
             }
 button.btn.btn-primary {
     padding: 10px 20px !important;
     font-size: 1.2em;
-} 
-.custombanner {
-    margin-top: -55px !important;          
-}                                                                  
 }
-                                           
-@media only screen and (max-width: 660px) { /*zabalení bloku formátování*/
+.custombanner {
+    margin-top: -55px !important;
+}
+}
+
+@media only screen and (max-width: 660px) { /*zabalenï¿½ bloku formï¿½tovï¿½nï¿½*/
 .navbar-nav {
     margin-left: 0em;
 }
@@ -1256,26 +1330,26 @@ button.btn.btn-primary {
     top: 0px;
     text-align: center;
     width: 660px !important;
-    padding: 30px 20px !important;    
+    padding: 30px 20px !important;
 }
 .custombanner-logo p span {
-    font-size: 20px !important;          
+    font-size: 20px !important;
 }
 .custombanner-logo p img {
     width: 110px !important;
 }
 .custombanner p span {
-    font-size: 18px !important;          
+    font-size: 18px !important;
 }
 .navbar-header {
 	float: none !important;
 }
 .text-center {
-  text-align: left;           
+  text-align: left;
              }
 .navbar-header a img {
   left: 0px !important;
-  top: 7px !important;                   
+  top: 7px !important;
                      }
 #header {
 	height: 40px !important;
@@ -1287,11 +1361,11 @@ button.btn.btn-primary {
 
 @media only screen and (max-width: 600px) {
 .navbar-nav {
-  margin: 0;          
+  margin: 0;
             }
 .navbar-collapse {
-  overflow-x: visible !important;              
-                 }            
+  overflow-x: visible !important;
+                 }
 .navbar-nav li, .nav>li {
 	float: right !important;
 	margin-left: 0px !important;
@@ -1307,18 +1381,18 @@ li.item-147 {
     top: 7.4em;
     font-size: 14px;
 }
-/*formátování slideru*/   
+/*formï¿½tovï¿½nï¿½ slideru*/
 
 .slider, .row-slider {
     z-index: 10 !important;
     margin-top: 25px;
 }
 .nivo-caption {
-    max-width: 600px;          
+    max-width: 600px;
               }
 .nivoSlider {
     margin-top: -60px;
-        z-index: 10 !important;        
+        z-index: 10 !important;
             }
 .nivo-title {
     padding-top: 72px;
@@ -1327,23 +1401,23 @@ li.item-147 {
     margin-top: 90px;
     height: 70px;
     padding-bottom: 45px;
-} 
+}
 .nivo-caption p {
     max-width: 580px;
     margin-bottom: 19px;
-}            
-.container-fluid { 
-    margin-top: 80px !important; 
+}
+.container-fluid {
+    margin-top: 80px !important;
     max-height: 282px;
-            }             
+            }
 .slider-wraper {
-    margin-top: 5px !important; 
- }                   
+    margin-top: 5px !important;
+ }
 
-/*formátování slideru v registrované èásti*/
+/*formï¿½tovï¿½nï¿½ slideru v registrovanï¿½ ï¿½ï¿½sti*/
 .username {
     left: 24em !important;
-    top: -36px !important; 
+    top: -36px !important;
 }
 .logout {
     top: -57px !important;
@@ -1351,30 +1425,30 @@ li.item-147 {
     left: 20.2em !important;
 }
 .info-uvod {
-    padding-bottom: 30px;       
+    padding-bottom: 30px;
            }
 .corpora-slider {
-   margin-top: 0px !important;             
-                }  
+   margin-top: 0px !important;
+                }
 h1.sp-smart-title {
    font-size: 1.2em !important;
-   max-width: 200px !important;    
-   margin-left: 10px; 
+   max-width: 200px !important;
+   margin-left: 10px;
    height: 80px;
-   margin-top: 50px;          
+   margin-top: 50px;
                 }
 p.sp-smart-posttitle {
    font-size: 0.9em !important;
    max-width: 200px !important;
-   margin-top: 40px;                         
-                    } 
+   margin-top: 40px;
+                    }
 .navbar-collapse.in {
   /*border-bottom: 1px solid #004d72 !important;   */
   overflow-y: visible;
   overflow-x: visible;
   height: 80px;
 }
-/*formátování 600px banner */
+/*formï¿½tovï¿½nï¿½ 600px banner */
 .banner-wraper {
     height: 120px !important;
     left: 0px;
@@ -1383,22 +1457,22 @@ p.sp-smart-posttitle {
     top: 0px;
     text-align: center;
     width: 660px !important;
-    padding: 30px 20px !important;    
+    padding: 30px 20px !important;
 }
 .custombanner-logo p span {
-    font-size: 20px !important;          
+    font-size: 20px !important;
 }
 .custombanner-logo {
-    margin-top: 0px !important;          
+    margin-top: 0px !important;
 }
 .custombanner {
-    margin-top: -9px !important;          
+    margin-top: -9px !important;
 }
 .custombanner-logo p img {
     width: 110px !important;
 }
 .custombanner p span {
-    font-size: 18px !important;          
+    font-size: 18px !important;
 }
 #company-wraper {
     padding: 70px 0 !important;
@@ -1410,55 +1484,55 @@ p.sp-smart-posttitle {
 .customvideo p {
     margin-left: 6px;
     margin-bottom: 30px;
-    overflow-x: visible;      
+    overflow-x: visible;
 }
 div p iframe {
     height: 70% !important;
     max-width: 70% !important;
     width: 90% !important;
 }
-/*formátování 600px kontaktní formuláø*/
+/*formï¿½tovï¿½nï¿½ 600px kontaktnï¿½ formulï¿½ï¿½*/
 .footer-box {
-    font-size: 13px;        
+    font-size: 13px;
 }
 .jsn-master .jsn-narrow .jsn-input-mini-fluid, .jsn-master .jsn-narrow .jsn-input-small-fluid, .jsn-master .jsn-narrow .jsn-input-medium-fluid, .jsn-master .jsn-narrow .jsn-input-xlarge-fluid, .jsn-master .jsn-narrow .jsn-input-fluid, .jsn-master .jsn-narrow .jsn-columns-container.jsn-columns-count-two .jsn-column-item, .jsn-master .jsn-narrow .jsn-columns-container.jsn-columns-count-three .jsn-column-item, .jsn-master .jsn-narrow .jsn-columns-container.jsn-columns-count-no .jsn-column-item, .jsn-master .jsn-bootstrap .jsn-narrow .input-small, .jsn-master .jsn-bootstrap .jsn-narrow .input-medium, .jsn-master .jsn-bootstrap .jsn-narrow .input-file, .jsn-master .jsn-bootstrap .jsn-narrow .jsn-column-item.jsn-uniform-others textarea.jsn-value-Others {
-    width: 100% !important;                    
+    width: 100% !important;
 }
 .jsn-input-xlarge-fluid {
-    margin-left: 0px;                    
-}                        
+    margin-left: 0px;
+}
 button.btn.btn-primary {
     padding: 10px 17px !important;
     font-size: 1.15em;
-} 
+}
 #jsn_form_1.jsn-master .jsn-bootstrap .jsn-form-content .control-group .controls input, #jsn_form_1.jsn-master .jsn-bootstrap .jsn-form-content .control-group .controls select, #jsn_form_1.jsn-master .jsn-bootstrap .jsn-form-content .control-group .controls textarea {
     background-size: 16% !important;
     padding: 12px;
     padding-left: 60px !important;
-} 
+}
 .jsn-master .jsn-narrow .jsn-input-mini-fluid, .jsn-master .jsn-narrow .jsn-input-small-fluid, .jsn-master .jsn-narrow .jsn-input-medium-fluid, .jsn-master .jsn-narrow .jsn-input-xlarge-fluid, .jsn-master .jsn-narrow .jsn-input-fluid, .jsn-master .jsn-narrow .jsn-columns-container.jsn-columns-count-two .jsn-column-item, .jsn-master .jsn-narrow .jsn-columns-container.jsn-columns-count-three .jsn-column-item, .jsn-master .jsn-narrow .jsn-columns-container.jsn-columns-count-no .jsn-column-item, .jsn-master .jsn-bootstrap .jsn-narrow .input-small, .jsn-master .jsn-bootstrap .jsn-narrow .input-medium, .jsn-master .jsn-bootstrap .jsn-narrow .input-file, .jsn-master .jsn-bootstrap .jsn-narrow .jsn-column-item.jsn-uniform-others textarea.jsn-value-Others {
     width: 97% !important;
 }
 input, textarea: {
-    font-size: 1.2em;             
-                 } 
+    font-size: 1.2em;
+                 }
 button.btn.btn-primary {
     padding: 10px 15px !important;
     font-size: 1em;
-} 
+}
 #jsn_form_1.jsn-master .jsn-bootstrap .jsn-form-content .control-group .controls input, #jsn_form_1.jsn-master .jsn-bootstrap .jsn-form-content .control-group .controls select, #jsn_form_1.jsn-master .jsn-bootstrap .jsn-form-content .control-group .controls textarea {
     background-size: 12% !important;
     padding: 12px;
     padding-left: 60px !important;
-} 
+}
 .jsn-master .jsn-narrow .jsn-input-mini-fluid, .jsn-master .jsn-narrow .jsn-input-small-fluid, .jsn-master .jsn-narrow .jsn-input-medium-fluid, .jsn-master .jsn-narrow .jsn-input-xlarge-fluid, .jsn-master .jsn-narrow .jsn-input-fluid, .jsn-master .jsn-narrow .jsn-columns-container.jsn-columns-count-two .jsn-column-item, .jsn-master .jsn-narrow .jsn-columns-container.jsn-columns-count-three .jsn-column-item, .jsn-master .jsn-narrow .jsn-columns-container.jsn-columns-count-no .jsn-column-item, .jsn-master .jsn-bootstrap .jsn-narrow .input-small, .jsn-master .jsn-bootstrap .jsn-narrow .input-medium, .jsn-master .jsn-bootstrap .jsn-narrow .input-file, .jsn-master .jsn-bootstrap .jsn-narrow .jsn-column-item.jsn-uniform-others textarea.jsn-value-Others {
     width: 97% !important;
 }
 input, textarea: {
-    font-size: 1.2em;             
+    font-size: 1.2em;
                  }
 }
-                 
+
 @media only screen and (max-width: 568px) {
 /*menu*/
 .nivo-caption p {
@@ -1467,17 +1541,17 @@ input, textarea: {
     margin-right: 0px;
 }
 .nivo-title {
-    max-width: 554px; 
+    max-width: 554px;
     }
 
-/*slider - veøejný*/
+/*slider - veï¿½ejnï¿½*/
 .corpora-slider {
     margin-top: -18px !important;
-} 
+}
 .slider, .row-slider {
     margin-top: 20px;
-}     
-/*slider - registrovaná èást*/    
+}
+/*slider - registrovanï¿½ ï¿½ï¿½st*/
 .corpora-slider {
     padding-bottom: 30px;
 }
@@ -1488,35 +1562,35 @@ p.sp-smart-posttitle {
     margin-top: 34px;
 }
 .custombanner-logo {
-    margin-top: 0px !important;          
+    margin-top: 0px !important;
 }
 .custombanner {
-    margin-top: -2px !important;          
+    margin-top: -2px !important;
 }
 
 .footer-box {
-    font-size: 12px;        
+    font-size: 12px;
             }
-/*formuláø-formátování*/
+/*formulï¿½ï¿½-formï¿½tovï¿½nï¿½*/
 button.btn.btn-primary {
     padding: 10px 15px !important;
     font-size: 1em;
-} 
+}
 #jsn_form_1.jsn-master .jsn-bootstrap .jsn-form-content .control-group .controls input, #jsn_form_1.jsn-master .jsn-bootstrap .jsn-form-content .control-group .controls select, #jsn_form_1.jsn-master .jsn-bootstrap .jsn-form-content .control-group .controls textarea {
     background-size: 12% !important;
     padding: 12px;
     padding-left: 60px !important;
-} 
+}
 .jsn-master .jsn-narrow .jsn-input-mini-fluid, .jsn-master .jsn-narrow .jsn-input-small-fluid, .jsn-master .jsn-narrow .jsn-input-medium-fluid, .jsn-master .jsn-narrow .jsn-input-xlarge-fluid, .jsn-master .jsn-narrow .jsn-input-fluid, .jsn-master .jsn-narrow .jsn-columns-container.jsn-columns-count-two .jsn-column-item, .jsn-master .jsn-narrow .jsn-columns-container.jsn-columns-count-three .jsn-column-item, .jsn-master .jsn-narrow .jsn-columns-container.jsn-columns-count-no .jsn-column-item, .jsn-master .jsn-bootstrap .jsn-narrow .input-small, .jsn-master .jsn-bootstrap .jsn-narrow .input-medium, .jsn-master .jsn-bootstrap .jsn-narrow .input-file, .jsn-master .jsn-bootstrap .jsn-narrow .jsn-column-item.jsn-uniform-others textarea.jsn-value-Others {
     width: 97% !important;
 }
 input, textarea: {
-    font-size: 1.2em;             
-                 } 
+    font-size: 1.2em;
+                 }
 }
 
 @media only screen and (max-width: 414px) {
-/*formátování header - kontakt a email*/
+/*formï¿½tovï¿½nï¿½ header - kontakt a email*/
 .mail {
      background-image: none;
 }
@@ -1526,21 +1600,21 @@ input, textarea: {
 .mobil {
      background-image: none;
 }
-/*skrytí slideru a banneru*/              
+/*skrytï¿½ slideru a banneru*/
 .slider {
-     display: none;        
+     display: none;
               }
 .banner-wraper {
-     display: none;        
-              }                                          
-} 
+     display: none;
+              }
+}
 
-@media only screen and (max-width: 384px) 
+@media only screen and (max-width: 384px)
 
-@media only screen and (max-width: 375px) 
+@media only screen and (max-width: 375px)
 
-@media only screen and (max-width: 320px) /*na šíøku*/ {
-/*formátování header - kontakt a email*/
+@media only screen and (max-width: 320px) /*na ï¿½ï¿½ï¿½ku*/ {
+/*formï¿½tovï¿½nï¿½ header - kontakt a email*/
 ul.header-kontakt {
      display: none !important;
 }
@@ -1549,14 +1623,14 @@ li.mail {
 }
 li.mobil {
      display: none !important;
-} 
+}
 .header-kontakt li {
      display: none;
-}                                                      
+}
 }
 
-@media only screen and (max-width: 320px) /*na výšku*/  {
-/*formátování header - kontakt a email*/
+@media only screen and (max-width: 320px) /*na vï¿½ï¿½ku*/  {
+/*formï¿½tovï¿½nï¿½ header - kontakt a email*/
 ul.header-kontakt {
      display: none !important;
 }
@@ -1565,10 +1639,10 @@ li.mail {
 }
 li.mobil {
      display: none !important;
-} 
+}
 .header-kontakt li {
      display: none;
-}                                                      
+}
 }
 
-@media only screen and (max-width: 240px)                                                                  
+@media only screen and (max-width: 240px)
