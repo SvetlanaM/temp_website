@@ -1,0 +1,178 @@
+/* TEMPLATE CSS
+*********************************************/
+html {height:100%; margin-bottom:1px; overflow-y:scroll;}
+body {background-color:#fff; color:#000; font-family: 'Open Sans', sans-serif; height:100%; text-align:center;}
+
+/* LAYOUT
+*********************************************/
+#overall {height:100%; margin:0 auto; text-align:left; width:100%;}
+
+	#header {}
+	#main {}
+	#footer {}
+
+/* Layout Classes */
+	.inheader {}
+	.inmain {}
+	.infooter {}
+
+/* Floats */
+.float-left {float:left;}
+.float-right {float:right;}
+.group:before, .group:after {content:""; display:table;}
+.group:after {clear:both;}
+.ie6 .group {zoom:1;}
+.ie7 .group {zoom:1;}
+
+h2, p {
+    color: #004d72;
+}
+h2 {
+    font-size: 36px;
+    font-weight: bold;   
+   } 
+
+/*HEADER*/
+.header-wraper {
+    background-color: #def1f7; 
+    padding: 5px 0;
+    height: 42px;
+}
+.header-kontakt {
+    padding: 5px 0;
+}
+.mail {
+    background: url(/templates/greycircle/images/email.png) 0 24% no-repeat;    
+    background-size: 24px 16px;
+      }
+.mail a {
+    color: #004d72;      
+        }      
+.mobil {
+    background: url(/templates/greycircle/images/phone.png) 7% 25% no-repeat;    
+    background-size: 18px 18px;
+    color: #004d72;   
+      }
+     
+.header-kontakt li {
+    padding-left: 30px;
+} 
+
+/*SLIDER*/
+.slider {
+    height: 726px;
+    width: 100%;
+    min-width: 100%;
+    position: relative;           
+         }
+.nivo-caption {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    top: 0px;
+    background: none;    
+    margin: auto;
+    color: #fff;
+    width: 680px;
+    height: 500px;
+    text-align: center;
+    z-index: 8;
+    padding: 5px 10px;
+    opacity: 0.8;
+    overflow: hidden;
+    display: none;
+    -moz-opacity: 0.8;
+    filter: alpha(opacity=8);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}   
+.nivo-caption p {
+    margin-bottom: 50px;                
+              }  
+.nivo-title {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 1.2;                 
+             }
+.nivo-posttitle {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #ffffff; 
+}
+.nivo-readmore {
+    font-size: 24px;
+    font-weight: bold; 
+    color: #dceaf0;              
+             }  
+             
+/*COMPANY-WRAPER - OBSAH K FIRMÌ A CERTIFIKÁTU*/
+
+#company-wraper {
+    padding: 120px 0;                    
+                }
+.certifikat {
+    position: relative;        
+            }
+.certifikat img {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    top: 100%; 
+    margin: 0 auto;
+    width: 169px;
+    height: 239px;           
+            }     
+            
+/*BANNER-WRAPER*/
+
+.banner-wraper {
+    background: url(/images/banner-bg.png) 0 0 no-repeat;
+    background-size: cover; 
+    height: 272px;
+                 
+               } 
+.custombanner p {
+    color: #ffffff;
+}
+.custombanner {
+    padding: 100px 0px;
+    margin: 0 auto;
+}  
+.custombanner img {
+    padding: 00px 50px;
+
+} 
+.laser p {
+    float: left;
+    line-height: 0.8;   
+} 
+.laser {
+    text-align: left;
+}   
+.laser a {
+    text-decoration: underline;
+    color: #ffffff !important;  
+} 
+
+/*RESPONZIVNÍ FORMÁTOVÁNÍ - najít nejmenší rozlišení, kde to vypadá dobøe a od dalšího pak ladit - máme to od 1366px*/
+@media only screen and (max-width: 1366px) {
+
+.nivo-title {
+   padding-top: 49px;
+   font-size: 48px;         
+            }
+.nivo-posttitle {
+   font-size: 14px;             
+                }
+.slider {
+   height: auto;     
+        }
+#company-wraper {
+    padding: 50px 0;                 
+                }                       
+           
+}                                                                      

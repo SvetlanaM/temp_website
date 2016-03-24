@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="2.5" type="template" method="upgrade">
+	<name>Grey Circle</name>
+	<creationDate>2015-12-08</creationDate>
+	<author>your name</author>
+	<copyright>Copyright © sutech@sutech.cz</copyright>
+	<version>1.0.0</version>
+	<description><![CDATA[
+		<h1>Grey Circle</h1>
+		<p><img src="../templates/templatename/template_preview.png" /></p>
+		<p>Created by <a href="http://www.example.com" target="_blank">your name | example.com</a>.</p>
+	]]></description>
+	
+	<files>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<filename>apple-touch-icon-57x57.png</filename>
+		<filename>apple-touch-icon-72x72.png</filename>
+		<filename>apple-touch-icon-114x114.png</filename>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>offline.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+	
+	<languages folder="language">
+		<language tag="cs-CZ">de-DE.tpl_templatename.ini</language>
+		<language tag="en-GB">en-GB.tpl_templatename.ini</language>
+		<language tag="ru-RU">en-GB.tpl_templatename.ini</language>    
+	</languages>
+	
+	<positions>
+		<position>header</position>
+		<position>menu</position>
+		<position>menu-user</position>
+		<position>login</position>        
+    <position>slider</position>
+    <position>firma</position>
+    <position>certifikat</position>
+    <position>uvod</position>
+    <position>clanky</position>    
+    <position>banner-logo</position>    
+    <position>banner</position>
+    <position>video</position>    
+    <position>video1</position>
+    <position>video2</position>
+    <position>video3</position>
+    <position>kontakt</position>
+    <position>telefon</position>     
+    <position>fakturace</position>
+    <position>formular</position>
+		<position>footer</position>
+	</positions>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+				<field name="FIELD_SPACER_HEADER_DESC" type="spacer" hr="false" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>
