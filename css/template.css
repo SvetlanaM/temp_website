@@ -1128,11 +1128,8 @@ h2, h3 {
 /*form�tov�n� registrovan� u�ivatel menu*/
 .menuakcionar {
     margin-right: 6px !important;
-    z-index: 5000 !important;
     }
-.logout {
-    left: 18em !important;
-    }
+
 .username {
     left: 27em !important;
     }
@@ -1142,7 +1139,8 @@ h2, h3 {
 .slider, .row-slider {
     z-index: 10 !important;
     max-height: 282px;
-    margin-top: 0px;
+    margin-top: 10px;
+		margin-bottom: 60px;
 }
 .nivo-title {
    padding-top: 49px;
@@ -1171,7 +1169,8 @@ h2, h3 {
     max-height: 282px;
             }
 .slider-wraper {
-    margin-top: 0px !important;
+    margin-top: 16px !important;
+
  }
 .slider {
    margin-top: 0px;
@@ -1195,29 +1194,46 @@ p.sp-smart-posttitle {
                     }
 /*konec form�tov�n� slider�*/
 /*form�tov�n� baneru*/
-.banner-wraper {
-    width: 768px;
-    overflow-y: visible !important;
-               }
+
 .custombanner-logo p span {
     font-size: 26px !important;
 }
-.custombanner-logo p img {
-    width: 110px !important;
-}
+
 .custombanner p span {
     font-size: 18px !important;
 }
-.custombanner-logo {
-    width: 310px !important;
-}
+
 div.row.banner.text-left {
     width: 340px !important;
 }
 .custombanner {
-    width: 180px !important;
-    margin-top: -55px;
+    margin-top: -10px;
     margin-left: 0px;
+}
+
+.i-form2 {
+    left: -9px;
+		top: 106px;
+}
+
+.i-form3 {
+    top: 200px;
+}
+
+div.username {
+    right: 100px;
+}
+
+.logout {
+	right: 65px;
+}
+
+.layout-corpora {
+	overflow: visible;
+}
+
+.custombanner-logo p span {
+	padding-right: 15px;
 }
 /*form�tov�n� videa*/
 .customvideo p {
@@ -1250,6 +1266,20 @@ iframe {
 #company-wraper {
     padding: 50px 0;
                 }
+								#header {
+								    height: 50px !important;
+								}
+
+								.info-uvod {
+									margin-bottom: 50px; 
+								}
+
+								p.sp-smart-posttitle {
+									max-width: 300px !important;
+								}
+								.custombanner-logo p img {
+    width: 155px !important;
+}
 }
 
 @media only screen and (max-width: 736px) {

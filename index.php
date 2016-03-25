@@ -184,11 +184,11 @@
                 <div class="banner-wraper">
                   <div class="container">
                     <div class="row banner text-center">
-                      <div class="col-xs-6 col-md-6 col-lg-6 col-md-offset-1 col-lg-offset-1">
+                      <div class="col-xs-6 col-md-6 col-lg-6 col-xs-offset-1 col-md-offset-1 col-lg-offset-1">
                         <jdoc:include type="modules" name="banner-logo" />
                       </div>
 
-                      <div class="col-xs-4 col-md-4 col-lg-4 col-md-offset-1 col-lg-offset-1 text-left banner-url">
+                      <div class="col-xs-4 col-md-4 col-lg-4 col-md-offset-1 col-xs-offset- 1 col-lg-offset-1 text-left banner-url">
                         <jdoc:include type="modules" name="banner" />
                       </div>
                     </div>
@@ -224,10 +224,10 @@
 
                   <div class="container zpravy">
                     <div class="row">
-                      <div class="col-xs-12 col-sm-4 info-uvod">
+                      <div class="col-xs-12 col-sm-12 info-uvod">
                         <jdoc:include type="modules" name="uvod" />
                       </div>
-                      <div class="col-xs-12 col-sm-8 info-obsah">
+                      <div class="col-xs-12 col-sm-12 info-obsah">
                         <jdoc:include type="modules" name="clanky" />
                       </div>
                     </div>
