@@ -1,6 +1,5 @@
 <?php
   defined( '_JEXEC' ) or die;
-
   // variables
   $app = JFactory::getApplication();
   $menu = $app->getMenu();
@@ -17,14 +16,7 @@
   $doc->addScript($tpath.'/js/modernizr.js'); // <- this script must be in the head
 
   unset($doc->_scripts[$this->baseurl.'/media/system/js/core.js']);
-
-
 ?>
-
-
-
-
-
 
 <!doctype html>
 <!--[if IEMobile]><html class="iemobile" lang="<?php echo $this->language; ?>"> <![endif]-->

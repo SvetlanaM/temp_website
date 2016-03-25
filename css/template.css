@@ -52,6 +52,11 @@ p {
 iframe#ipad-landscape {
     overflow-y: visible !important;
                 }
+
+ul li a:hover {
+	color: ##004d72;
+	text-decoration: underline;
+}
 /*HEADER*/
 
 #header {
@@ -139,7 +144,7 @@ li.item-147, li.item-130, li.item-146 {
 }
 .nav li a:hover {
   text-decoration: underline;
-  color: #3494c2 !important;
+  color: ##004d72 !important;
 }
 .current li a img {
 z-index:�1000;
@@ -381,6 +386,7 @@ div.username {
     top: 65px;
     color: #004d72 !important;
     font-weight: 600 !important;
+		text-transform: uppercase;
 
 }
 
