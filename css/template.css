@@ -933,31 +933,36 @@ h2, h3 {
 }
 /*form�tov�n� registrovan� u�ivatel menu*/
 .nav.menuakcionar {
-    margin-right: 28px !important;
+    margin-right: 20px !important;
     }
+div.username {
+	right: 255px;
+}
+
+ul.category-module li,
+ul.category-modulezprava li {
+	max-width: 300px;
+	margin-bottom: 70px;
+}
 .logout {
-    left: 26em !important;
-    }
-.username {
-    left: 35em !important;
-    }
+	right: 110px;
+}
+
+.slider-content-wrapper {
+    margin-top: 0px;
+}
 /*konec form�tov�n� registrovan� ��sti*/
 /*form�tov�n� baneru*/
 .banner-wraper {
-    height: 160px !important;
     left: 0px;
     bottom: 0px;
     right: 0px;
     top: 0px;
     text-align: center;
-    width: 1024px;
     overflow-y: visible !important;
 }
-.custombanner-logo {
-    margin-top: -50px;
-}
+
 .custombanner {
-    margin-top: -60px;
     width: 260px;
 }
 .custombanner-logo p span {
@@ -968,8 +973,13 @@ h2, h3 {
 }
 /*form�tov�n� video*/
 .video-wraper {
-    margin-top: -38px;
+    padding-top: 55px;
 }
+
+.i-form2 {
+    left: 422px;
+}
+
 .customvideo {
     margin-left: -38px;
 }
