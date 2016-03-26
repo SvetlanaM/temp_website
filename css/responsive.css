@@ -582,10 +582,55 @@ li.item-130,
 li.item-147,
 div#sp-smart-slider123,
 div#sp-smart-slider121  {
-  display: none;
+  display: none !important;
 }
 
 .col-xs-12.col-sm-12.col-md-4.col-lg-4.info-uvod {
   margin-top: -140px;
+}
+
+ul.nav.menuakcionar {
+    margin-top: -23px;
+}
+}
+
+@media only screen and (max-width: 375px) {
+    .mail, .mobil {
+      background: none !important;
+    }
+
+    .username {
+    left: 5em !important;
+  }
+
+  ul.nav.menuakcionar {
+    margin-top: -14px;
+  }
+
+  .navbar-header a img {
+    position: absolute !important;
+    width: 84px !important;
+  }
+
+  button.btn.btn-primary.jsn-form-submit.btn-submit {
+        margin-left: -30px;
+  }
+  button.btn.btn-primary {
+    width: 109% !important;
+}
+
+.control-group.title.single_line_text_31223175113_50_42.ui-state-highlight {
+  width: 117%;
+}
+
+.control-group.email.emailova_adresa_37349543213_52_28 {
+  width: 97%;
+    margin-left: -12px;
+}
+
+.jsn-master .jsn-input-xlarge-fluid,
+.jsn-master .jsn-narrow .jsn-input-xlarge-fluid {
+    width: 122% !important;
+        padding-left: 15px;
 }
 }
