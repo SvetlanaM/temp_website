@@ -558,6 +558,16 @@ p.sp-smart-posttitle {
     left: 13em;
     font-size: 12px;
 }
+
+.pretext,
+.logo-b,
+.control-group.checkbox {
+  display: none;
+}
+
+.i-i, .i-p {
+  display: none;
+}
     li.phone, li.email {
       font-size: 10px;
     }
@@ -682,5 +692,15 @@ iframe {
 
 .controls .row-fluid .email {
     width: 104% !important;
+}
+
+.pretext {
+  display: none;
+}
+
+#sbox-content > div > form > div.userdata > div:nth-child(4) > div > button {
+    padding: 10px 30px !important;
+    width: 99% !important;
+    float: left;
 }
 }
