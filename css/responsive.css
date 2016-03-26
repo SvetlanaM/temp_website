@@ -1,0 +1,258 @@
+@media only screen and (max-width: 1024px) {
+h2, h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+   }
+.jsn-bootstrap .jsn-form-content .message {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+.nav.menuakcionar {
+    margin-right: 20px !important;
+    }
+div.username {
+right: 255px;
+}
+
+ul.category-module li,
+ul.category-modulezprava li {
+max-width: 300px;
+margin-bottom: 70px;
+}
+.logout {
+right: 110px;
+}
+
+.slider-content-wrapper {
+    margin-top: 0px;
+}
+.banner-wraper {
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    top: 0px;
+    text-align: center;
+    overflow-y: visible !important;
+}
+
+.custombanner {
+    width: 260px;
+}
+.custombanner-logo p span {
+    font-size: 36px !important;
+}
+.custombanner-logo p img {
+    width: 160px !important;
+}
+.video-wraper {
+    padding-top: 55px;
+}
+
+.i-form2 {
+    left: 422px;
+}
+.customvideo {
+    margin-left: -38px;
+}
+.customvideotitle {
+    margin-left: 5px;
+}
+.customfooter {
+    margin-right: 25px;
+}
+.slider {
+   height: auto;
+        }
+#company-wraper {
+    padding: 50px 0;
+                }
+input#1.jsn-input-medium-fluid {
+    width: 76% !important;
+}
+input#2.email.jsn-input-medium-fluid {
+    width: 76% !important;
+}
+.controls .row-fluid .email {
+    width: 76% !important;
+}
+.jsn-master .jsn-input-xlarge-fluid {
+    width: 99%;
+}
+h1.sp-smart-title {
+   font-size: 2.1em !important;
+   margin-left: 10px;
+   max-width: 340px !important;
+   height: 130px;
+   margin-top: 55px;
+                }
+p.sp-smart-posttitle {
+   max-width: 340px !important;
+   font-size: 1.3em !important;
+   margin-top: 50px;
+                    }
+.nivo-title {
+    font-size: 45px;
+    max-width: 800px;
+    margin-top: 116px;
+}
+.i-form2 {
+    left: 422px;
+}
+
+.logout {
+  right: 83px;
+}
+div.username {
+  right: 260px;
+}
+
+ul.category-module li {
+      max-width: 49%;
+}
+}
+
+@media only screen and (max-width: 768px) {
+h2, h3 {
+    font-size: 1.4em;
+    font-weight: bold;
+   }
+.navbar-nav li:nth-child(3) {
+display: none !important;
+}
+.nav>li>a>img {
+    background-size: 50%;
+              }
+.menuakcionar {
+    margin-right: 6px !important;
+    }
+.username {
+    left: 27em !important;
+    }
+.slider, .row-slider {
+    z-index: 10 !important;
+    max-height: 282px;
+    margin-top: 10px;
+margin-bottom: 60px;
+}
+.nivo-title {
+   padding-top: 49px;
+   font-size: 32px !important;
+   margin-top: 90px;
+   max-width: 700px;
+   text-align: center;
+   padding-left: 120px;
+   padding-right: 120px;
+            }
+.nivo-posttitle {
+   font-size: 14px;
+                }
+.nivo-readmore {
+   font-size: 18px;
+}
+.nivo-caption p {
+    margin-bottom: 19px;
+}
+.nivoSlider {
+    margin-top: -40px;
+        z-index: 10 !important;
+            }
+.container-fluid {
+    margin-top: 49px !important;
+    max-height: 282px;
+            }
+.slider-wraper {
+    margin-top: 16px !important;
+
+ }
+.slider {
+   margin-top: 0px;
+   height: auto;
+   z-index: 1;
+        }
+.corpora-slider {
+    margin-top: 0px;
+    }
+h1.sp-smart-title {
+   font-size: 1.6em !important;
+   margin-left: 10px;
+   height: 130px;
+   margin-top: 97px;
+                }
+p.sp-smart-posttitle {
+   font-size: 1.2em !important;
+   max-width: 250px !important;
+   margin-top: 70px;
+                    }
+.custombanner-logo p span {
+    font-size: 26px !important;
+}
+.custombanner p span {
+    font-size: 18px !important;
+}
+div.row.banner.text-left {
+    width: 340px !important;
+}
+.custombanner {
+    margin-top: -10px;
+    margin-left: 0px;
+}
+.i-form2 {
+    left: -9px;
+top: 106px;
+}
+.i-form3 {
+    top: 200px;
+}
+div.username {
+    right: 100px;
+}
+.logout {
+right: 65px;
+}
+.layout-corpora {
+overflow: visible;
+}
+.custombanner-logo p span {
+padding-right: 15px;
+}
+.customvideo p {
+    width: 100%;
+             }
+.video1, .video2, .video3 {
+    padding: 50px 15px;
+    background-size: 60% !important;
+             }
+iframe {
+    width: 80% !important;
+    height: 80% !important;
+    display: inline;
+    margin-left: 40px;
+}
+.customvideotitle {
+    margin-left: 30px;
+                  }
+.fakturace {
+    margin-top: 25px;
+           }
+.footer-box {
+    margin-left: 16px;
+                             }
+.kontakt-header {
+    margin-left: 30px;
+                             }
+#company-wraper {
+    padding: 50px 0;
+                }
+#header {
+   height: 50px !important;
+}
+.info-uvod {
+margin-bottom: 50px;
+}
+p.sp-smart-posttitle {
+max-width: 300px !important;
+}
+.custombanner-logo p img {
+    width: 155px !important;
+}
+}

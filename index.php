@@ -32,7 +32,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <link rel="stylesheet" href="<?php echo $tpath; ?>/css/template.css.php?v=1.0.0" type="text/css" >
         <link rel="shortcut icon" href="" sizes="16x16"/>
-        <link rel="stylesheet" href="../templates/greycircle/css/sveta.css" >
+        <link rel="stylesheet" href="../templates/greycircle/css/responsive.css" >
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <!--[if lte IE 8]>
           <style>
