@@ -482,6 +482,9 @@ div#sp-smart-slider123  {
 }
 
 @media only screen and (max-width: 600px) {
+  ul.category-module li {
+    max-width: 100%;
+}
   .navbar-nav {
     margin-left: -19em;
 }
@@ -619,8 +622,9 @@ ul.nav.menuakcionar {
     width: 109% !important;
 }
 
-.control-group.title.single_line_text_31223175113_50_42.ui-state-highlight {
-  width: 117%;
+.control-group.title.single_line_text_31223175113_50_42.ui-state-highlight,
+#jsn_form_1.jsn-master .jsn-bootstrap .jsn-form-content .control-group {
+  width: 112%;
 }
 
 .control-group.email.emailova_adresa_37349543213_52_28 {
@@ -632,5 +636,42 @@ ul.nav.menuakcionar {
 .jsn-master .jsn-narrow .jsn-input-xlarge-fluid {
     width: 122% !important;
         padding-left: 15px;
+}
+}
+
+@media only screen and (max-width: 320px) {
+  li.mail, div.username {
+    display: none !important;
+  }
+
+  ul.nav.menuakcionar li a {
+    font-size: 9px;
+  }
+
+  .nivo-title {
+    font-size: 14px !important;
+    padding-top: 99px;
+}
+
+iframe {
+    margin-left: 50px;
+    width: 70%;
+    height: 204px !important;
+  }
+
+  #jsn_form_1.jsn-master .jsn-bootstrap .jsn-form-content .control-group {
+    width: 112%;
+  }
+
+  button.btn.btn-primary.jsn-form-submit.btn-submit {
+    font-size: 16px;
+  }
+
+  .btn-toolbar {
+    margin-left: -12px !important;
+}
+
+.controls .row-fluid .email {
+    width: 104% !important;
 }
 }
