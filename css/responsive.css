@@ -613,10 +613,7 @@ ul.nav.menuakcionar {
 
 @media only screen and (max-width: 375px) {
 
-  .control-group.email.emailova_adresa_37349543213_52_28.ui-state-highlight {
-    width: 94%;
 
-  }
     .mail, .mobil {
       background: none !important;
     }
@@ -646,9 +643,16 @@ ul.nav.menuakcionar {
   width: 112%;
 }
 
+
+
 .control-group.email.emailova_adresa_37349543213_52_28 {
   width: 97%;
     margin-left: -12px;
+}
+
+.control-group.email.emailova_adresa_37349543213_52_28.ui-state-highlight {
+  width: 94%;
+
 }
 
 .jsn-master .jsn-input-xlarge-fluid,
@@ -681,6 +685,7 @@ iframe {
   #jsn_form_1.jsn-master .jsn-bootstrap .jsn-form-content .control-group {
     width: 112%;
   }
+
 
   button.btn.btn-primary.jsn-form-submit.btn-submit {
     font-size: 16px;
