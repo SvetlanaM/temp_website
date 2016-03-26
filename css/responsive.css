@@ -313,3 +313,132 @@ iframe {
     margin-bottom: 45px;
   }
 }
+
+@media only screen and (max-width: 736px) {
+.modaltest {
+    top: 111px;
+           }
+div.username {
+    top: -43px;
+             }
+.logout {
+    top: -65px;
+        }
+.container.zpravy {
+    margin-top: -10px;
+}
+
+.nivo-title {
+    font-size: 26px !important;
+    padding-top: 72px;
+            }
+.corpora-slider {
+    margin-top: 0px;
+    background-size: 121% !important;
+    }
+h1.sp-smart-title {
+   font-size: 1.5em !important;
+   margin-left: 10px;
+   height: 130px;
+   margin-top: 97px;
+                }
+p.sp-smart-posttitle {
+   font-size: 1em !important;
+   max-width: 250px !important;
+   margin-top: 80px;
+                    }
+
+.custombanner-logo p span {
+    font-size: 26px !important;
+}
+.custombanner-logo p img {
+    width: 110px !important;
+}
+.custombanner p span {
+    font-size: 18px !important;
+}
+.custombanner-logo {
+    width: 400px !important;
+}
+div.row.banner.text-left {
+    width: 240px !important;
+}
+.custombanner {
+    width: 180px !important;
+    margin-top: -10px;
+    margin-left: 30px;
+}
+
+li.item-101 {
+    display: none !important;
+}
+.navbar-nav li:nth-child(3) {
+display: none !important;
+}
+.navbar-header a img {
+    position: absolute !important;
+    width: 101px !important;
+    left: 20px !important;
+    top: 21px !important;
+    z-index: 5000 !important;
+}
+.navbar-nav {
+    margin-left: -21em;
+}
+.navbar-nav li a {
+    margin: 0px 0px;
+}
+.modaltest {
+    left: 18em;
+}
+.icon-bar {
+background-color: #004d72;
+}
+.navbar-header {
+float: none !important;
+}
+
+#header {
+height: 40px !important;
+}
+.navbar-toggle {
+margin-top: 0 !important;
+}
+.navbar-nav li, .nav>li {
+float: right !important;
+margin-left: 0em !important;
+display: inline !important;
+}
+
+.video-wraper {
+    padding-top: 37px;
+  }
+
+  .footer-wraper {
+    background-position: center bottom;
+}
+
+
+
+.logout, div.username {
+    top: 65px;
+}
+
+ul.nav.menuakcionar {
+      margin-top: -60px;
+}
+
+div#sp-smart-slider121 {
+  margin-top: -90px;
+  margin-bottom: -115px;
+}
+
+.footer-wraper {
+    background-position: bottom center;
+}
+
+img.hidden-lg.hidden-md {
+    width: 97px;
+    margin-top: -17px;
+}
+}

@@ -214,7 +214,7 @@
                       </div>
                     </div>
                     <div class="row footer-box">
-                      <div class="col-sm-4 col-xs-12 col-md-3 col-lg-2">
+                      <div class="col-sm-4 col-xs-4 col-md-3 col-lg-2">
                         <jdoc:include type="modules" name="kontakt" />
                       </div>
                       <div class="col-sm-8 col-xs-8 col-md-3 col-lg-2">
