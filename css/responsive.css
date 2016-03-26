@@ -554,6 +554,10 @@ p.sp-smart-posttitle {
 }
 
 @media only screen and (max-width: 414px) {
+  .modaltest {
+    left: 13em;
+    font-size: 12px;
+}
     li.phone, li.email {
       font-size: 10px;
     }
@@ -598,6 +602,11 @@ ul.nav.menuakcionar {
 }
 
 @media only screen and (max-width: 375px) {
+
+  .control-group.email.emailova_adresa_37349543213_52_28.ui-state-highlight {
+    width: 94%;
+
+  }
     .mail, .mobil {
       background: none !important;
     }
