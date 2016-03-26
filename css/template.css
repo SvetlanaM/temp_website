@@ -386,11 +386,12 @@ SLIDER
     margin-bottom: 50px;
               }
 .nivo-title {
-    font-size: 72px;
+    font-size: 50px;
     font-weight: bold;
     line-height: 1.2;
     max-width: 800px;
     text-align: center;
+		margin-top: 70px;
              }
 .nivo-posttitle {
     font-size: 18px;
