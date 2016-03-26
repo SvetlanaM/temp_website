@@ -534,3 +534,18 @@ p.sp-smart-posttitle {
 }
 
 }
+
+@media only screen and (max-width: 568px) {
+  .navbar-nav {
+  margin-left: -17em;
+}
+
+.custombanner-logo {
+    padding-right: 35px;
+  }
+
+  .custombanner-logo p img {
+    width: 75px !important;
+}
+
+}
