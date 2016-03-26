@@ -8,64 +8,72 @@ a:hover {
 /* LAYOUT
 *********************************************/
 #overall {height:100%; margin:0 auto; text-align:left; width:100%;}
-
 	#header {}
 	#main {}
 	#footer {}
-
-/* Layout Classes */
 	.inheader {}
 	.inmain {}
 	.infooter {}
-
-/* Floats */
 .float-left {float:left;}
 .float-right {float:right;}
 .group:before, .group:after {content:""; display:table;}
 .group:after {clear:both;}
 .ie6 .group {zoom:1;}
 .ie7 .group {zoom:1;}
-
 body {
-    font-size: 16px;
-     }
-div {
-  overflow: -moz-scrollbars-horizontal;
-  overflow: "visible";
-}
+	font-size: 16px;
+ }
 h2, p {
     color: #004d72;
 }
 h2 {
     font-size: 2.25em;
     font-weight: bold;
-   }
+}
 h3 {
     font-size: 2.25em;
     font-weight: bold;
     color: #fffff !important;
-   }
+}
 p {
     font-size: 1em;
 }
-
-iframe#ipad-landscape {
-    overflow-y: visible !important;
-                }
-
 ul li a:hover {
 	color: ##004d72;
 	text-decoration: underline;
 }
-/*HEADER*/
-
+label.element-invisible {
+  margin-bottom: -20px;
+}
+.control-group.checkbox {
+  margin-top: 22px;
+    width: 40%;
+		float: left;
+}
+label.control-label {
+      margin-right: 30px;
+    float: left;
+}
+input.inputbox {
+      margin-top: 15px;
+    float: left;
+}
+input.input-small {
+  width: 100%;
+  padding-left: 66px;
+ color: #004d72 !important;
+  font-size: 22px;
+  font-weight: 200;
+}
+/***********************
+HEADER
+***********************/
 #header {
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-        }
-
+}
 .header-wraper {
     background-color: #def1f7;
     padding: 5px 0;
@@ -77,50 +85,46 @@ ul li a:hover {
 .mail {
     background: url(/templates/greycircle/images/email.png) 0 24% no-repeat;
     background-size: 24px 16px;
-      }
+}
 .mail a {
     color: #004d72;
-        }
+}
 .mobil {
     background: url(/templates/greycircle/images/phone.png) 7% 25% no-repeat;
     background-size: 18px 18px;
     color: #004d72;
-      }
-
+}
 .header-kontakt li {
     padding-left: 30px;
 }
-
-/*MENU*/
-
+/***********************
+MENU
+***********************/
 .main-nav {
     margin-top: 9px;
     overflow-x: visible;
 }
-
 .navbar-nav li a {
     text-transform: uppercase;
     margin: 0px 15px;
 }
-
 .navbar-header {
     float: left;
 }
-
 .text-center {
     text-align: center;
 }
-
 .navbar-nav {
     float: none;
     display: inline-block;
     margin-left: -9em;
 }
-/*pokra�ov�n� od sv�ty - centrov�n� menu*/
 .navbar-fixed-bottom, .navbar-fixed-top {
     position: absolute;
 }
-
+li.current.active {
+    font-weight: bold;
+}
 li.item-101 {
     position: absolute;
     top: 84px;
@@ -128,7 +132,6 @@ li.item-101 {
     transform: translate(-50%, -50%);
     z-index: 2200;
 }
-
 li.item-147 {
     padding-left: 10em;
 }
@@ -158,20 +161,12 @@ height:�150px;
 margin-left:�auto;
 margin:�auto;
 }
-
 .current {
 padding: 0px 10px;
 }
-
-/*LOGIN-PRIHLASOVACI FORMULAR*/
-
-/* ************ ��st form�tov�n� loginu od Sveti ********* */
-
 input:-webkit-autofill {
-
     -webkit-box-shadow: 0 0 0 1000px #f3f6f7 inset;
 }
-
 button.btn.btn-primary {
     padding: 10px 30px !important;
     width: 100% !important;
@@ -180,47 +175,15 @@ button.btn.btn-primary {
   	text-transform: uppercase;
   font-weight: bold;
   border-radius:2em;
-
 }
-
 .userdata .control-group .controls {
   margin-top: 20px;
 }
-
-label.element-invisible {
-  margin-bottom: -20px;
-}
-.control-group.checkbox {
-  margin-top: 22px;
-    width: 40%;
-		float: left;
-}
-
-label.control-label {
-      margin-right: 30px;
-    float: left;
-}
-
-input.inputbox {
-      margin-top: 15px;
-    float: left;
-}
-
-input.input-small {
-  width: 100%;
-  padding-left: 66px;
- color: #004d72 !important;
-  font-size: 22px;
-  font-weight: 200;
-}
-
-
 div#sbox-window {
   height: auto !important;
   padding-bottom: 20px;
   background: #fff !important;
 }
-
 .logo-b {
   	background: #fff;
     position: absolute;
@@ -231,7 +194,6 @@ div#sbox-window {
     right: 0px;
     border-radius: 100%;
 }
-
 .i-i {
     position: absolute;
     background: #004d72;
@@ -242,7 +204,6 @@ div#sbox-window {
     top: 109px;
     left: 23px;
 }
-
 .i-p {
     position: absolute;
     background: #004d72;
@@ -253,8 +214,6 @@ div#sbox-window {
     top: 235px;
     left: 23px;
 }
-
-
 .glyphicon {
   color: #fff;
   font-size: 45px;
@@ -268,15 +227,9 @@ span.glyphicon {
     color: #fff;
     right: 17px;
 }
-
 .body-overlayed {
     overflow: visible;
 }
-
-    /* *******konec form�tov�n� loginu od Sveti ******* */
-
-/* LOGIN P�IHL��EN� POKRA�OV�N� STYLOV�N� */
-
 .menu-user {
     overflow: hidden;
 }
@@ -290,11 +243,6 @@ span.glyphicon {
 }
 .nav.menuakcionar a:hover {
     text-decoration: underline;
-}
-.container.zpravy {
-    min-height: 300px;
-    background: #fff;
-    height: auto;
 }
 #sbox-content {
     background-color: transparent !important;
@@ -320,7 +268,6 @@ span.glyphicon {
     border-radius: 20px;
     padding: 20px 45px;
     font-size: 1em;
-        /*logo v loginu*/
     background-image: url(/images/logo-GC.png);
     background-repeat: no-repeat;
     background-position: 100% -5%;
@@ -361,23 +308,15 @@ input.inputbox .checkbox {
 }
 .unstyled {
     display: none;
-   /* display: inline-block;
-    font-size: 0.8em;
-    color: #004d72 !important;
-    margin-top: 20px;  */
 }
 #sbox-content div {
   display: block !important !important;
   font-size: 1.3em;
-  font-weight: bold;  /*uprava fontu nadpis loginu*/
+  font-weight: bold;
 }
-
-/* pozicov�n� obsahu �l�nk� */
 div.info-obsah {
     display: inline-block;
 }
-
-
 /*registrovan� u�ivatel zobrazen� username */
 div.username {
     display: block;
@@ -387,9 +326,7 @@ div.username {
     color: #004d72 !important;
     font-weight: 600 !important;
 		text-transform: uppercase;
-
 }
-
 li.item-149.current.active::after {
 	content: "/";
 	font-weight: bold;
@@ -397,7 +334,6 @@ li.item-149.current.active::after {
 	margin-top: -30px;
 	color: #004d72;
 }
-
 li.item-150.current.active::before {
 	content: "/";
 	font-weight: bold;
@@ -405,32 +341,12 @@ li.item-150.current.active::before {
 	margin-top: 10px;
 	color: #004d72;
 }
-
-
+/*********************
+SLIDER
+*********************/
 .slider-content-wrapper {
 	margin-top: -20px;
 }
-
-li.current.active {
-    font-weight: bold;
-}
-/*registrovan� u�ivatel - pozicov�n� logout*/
-.logout {
-    display: block;
-
-    position: absolute;
-		top: 65px;
-    right: 228px;
-    color: #535353 !important;
-    text-transform: uppercase !important;
-    text-decoration: underline !important;
-}
-.logout:hover {
-    color: #ababab !important;
-        }
-
-/*SLIDER*/
-
 .slider {
     height: auto;
     min-height: 100%;
@@ -487,20 +403,15 @@ li.current.active {
     font-weight: bold;
     color: #dceaf0;
              }
-
-/*SLIDER - SHROMAZDENI A V�RO�N� ZPR�VY*/
-
 .layout-corpora .slider-title {
     margin-top: 0;
 }
 .slider-title {
     display: inline !important;
-
 }
 .corpora-slider {
     height: auto !important;
                 }
-
 h1.sp-smart-title {
     font-size: 2.8em !important;
     font-weight: 700;
@@ -510,8 +421,6 @@ h1.sp-smart-title {
     color: #ffffff !important;
     height: 200px;
     margin-top: 104px;
- /*
-    padding-bottom: 62px;*/
                     }
 p.sp-smart-posttitle {
     font-size: 2.1em;
@@ -520,37 +429,31 @@ p.sp-smart-posttitle {
     float: right !important;
     max-width: 400px;
     margin-top: 104px;
-   /* margin-left: 730px;     */
-    /*margin-top: -5em;  */
     color: #ffffff !important;
-                    }
+}
 div.slider-item.item-1.animate-in {
     background-size: inherit !important;
-                            }
-
+}
 .shromazdeni.nivoslider.nivo-caption.nivo-pretitle p {
     font-size: 2.5em !important;
     text-transform: uppercase !important;
-                                                   }
-
-
+}
 div.shromazdeni.nivoslider.nivo-caption.nivo-title {
     font-size: 1.5em !important;
     text-transform: uppercase !important;
-                                                }
+}
 div.slider-controllers a {
     display: none !important;
-
-                      }
-
-/*COMPANY-WRAPER - OBSAH K FIRM� A CERTIFIK�TU*/
-
+}
+/********************
+COMPANY WRAPPER
+********************/
 #company-wraper {
     padding: 120px 0;
-                }
+}
 .certifikat {
     position: relative;
-            }
+}
 .certifikat img {
     position: absolute;
     left: 0px;
@@ -560,19 +463,13 @@ div.slider-controllers a {
     margin: 0 auto;
     width: 169px;
     height: 239px;
-            }
-
-/*REGISTROVAN� �LENOV�*/
-
+}
 .uvod {
     height: 100%;
-      }
+}
 .clanek {
     height: 100%;
-      }
-
-/*ZPR�VY */
-
+}
 .container.zpravy {
     margin-top: 60px;
     margin-bottom: 60px;
@@ -582,14 +479,9 @@ div.slider-controllers a {
 .container.zpravy h2 {
     padding-bottom: 0.5em;
 }
-
-
-/* SHROM��D�N� - OBSAH*/
-
 p.mod-articles-category-introtext {
     padding-bottom: 1.3em;
 }
-
 ul.category-module li {
     display: inline-block;
     list-style-type: none;
@@ -603,7 +495,6 @@ ul.category-module li {
     max-width: 373px;
     height: 120px;
     text-transform: uppercase;
-    /*text-decoration: underline;   */
 }
 ul.category-module li p {
     font-size: 0.68em;
@@ -614,9 +505,6 @@ ul.category-module li p {
     max-width: 280px;
     margin-right: 14px;
 }
-
-/* V�RO�N� ZPR�VY - OBSAH */
-
 ul.category-modulezprava li {
     display: inline-block;
     list-style-type: none;
@@ -630,7 +518,6 @@ ul.category-modulezprava li {
     max-width: 373px;
     height: 120px;
     text-transform: uppercase;
-    /*text-decoration: underline;  */
 }
 ul.category-modulezprava li p {
     font-size: 0.68em;
@@ -641,9 +528,6 @@ ul.category-modulezprava li p {
     max-width: 280px;
     margin-right: 14px;
 }
-
-/*BANNER-WRAPER*/
-
 .banner-wraper {
     background: url(/images/banner-bg.png) 0 0 no-repeat;
     background-size: cover;
@@ -655,24 +539,20 @@ ul.category-modulezprava li p {
     top: 0px;
     text-align: center;
 }
-
 .custombanner-logo p, .custombanner p, .custombanner p a {
     color: #ffffff;
     line-height: 1.4;
-        }
+}
 .custombanner-logo p img {
     vertical-align: middle;
-        }
+}
 .custombanner p a {
     text-decoration: underline;
 }
 .banner-url {
     margin-left: -5px;
 }
-
-
 /*VIDEO-WRAPER*/
-
 .video-wraper {
 		background: url(https://trello-attachments.s3.amazonaws.com/54b8ff42b5f46a60ad33f838/1600x308/468b288576dca683bd688cd578286ed1/video-bg.jpg) no-repeat;
     height: auto;
@@ -687,9 +567,7 @@ ul.category-modulezprava li p {
 .html5-video-player {
     background-color: transparent !important;
 }
-
 /*FOOTER-WRAPER*/
-
 .footer-wraper {
     background: url(/images/mapa-bg.jpg) 0 0 no-repeat;
     height: auto;
@@ -721,10 +599,6 @@ ul.category-modulezprava li p {
 .fakturace-top {
     margin-top: 90px;
             }
-
-
-/*FORMUL��-STYLOV�N�*/
-
 #kontakt-form {
     margin-top: 50px;
     background-color: #ffffff;
@@ -735,18 +609,15 @@ ul.category-modulezprava li p {
 .jsn-bootstrap .jsn-form-content .message {
     width: 110%;
 }
-
 .controls .jsn-input-medium-fluid {
     width: 80%;
     padding-top: 25px;
     padding-bottom: 16px;
 		background-color: #fff;
 }
-
 button.btn.btn-primary.jsn-form-submit.btn-submit {
 	width: 100%;
 }
-
 .i-form1,
 .i-form2 ,
 .i-form3 {
@@ -757,7 +628,6 @@ button.btn.btn-primary.jsn-form-submit.btn-submit {
  position: absolute;
  left: -9px;
  top: 9px;}
-
 .i-form1 img,
 .i-form2 img,
 .i-form3 img {
@@ -768,36 +638,29 @@ position: absolute;
  margin-left: auto;
  top: 22px;
 }
-
 .i-p img{
 	position: absolute;
 	left: 24px;
 }
-
 .i-i img {
 	position: absolute;
 	left: 18px;
 }
-
 .i-form2 {
 	left: 520px;
 }
-
 .i-form3 {
 	top: 105px;
 }
-
 .controls .row-fluid .email {
     width: 80%;
     padding-top: 25px;
     padding-bottom: 16px;
 }
-
 textarea {
     border: 1px solid red;
 		margin-top: 25px;
 }
-
 input, textarea {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -805,7 +668,6 @@ input, textarea {
     font-size: 1.6em;
     border: 1px solid red;
 }
-
 .jsn-form-submit {
     background: #004d72;
     width: 200px;
@@ -825,7 +687,6 @@ input, textarea {
     width: 55% !important;
 		float: left;
 }
-
 .jsn-text-center {
     display: none;
 }
@@ -838,9 +699,7 @@ input#1.jsn-input-medium-fluid {
 .row-fluid {
     margin-left: 11px !important;   /*ovlivn� v�echny boxy*/
                                      }
-
 /*FOOTER-BOTTOM-WRAPER - PATI�KA STR�NKY*/
-
 .bottom-footer-wrapper {
     padding: 15px;
 
@@ -848,852 +707,20 @@ input#1.jsn-input-medium-fluid {
 .customcopyright p {
     font-size: 0.7em !important;
                  }
-
-
-
-
-/*RESPONZIVN� FORM�TOV�N� - naj�t nejmen�� rozli�en�, kde to vypad� dob�e a od dal��ho pak ladit - m�me to od 1366px*/
-
-
-@media only screen and (max-width: 1680px) { /*zabalen� bloku form�tov�n�*/
-
-.nivo-title {
-    font-size: 60px !important;
-    margin-top: 30px;
-    padding-bottom: 30px;
-                  }
-}
-
-@media only screen and (max-width: 1366px) {
-
-.nivo-title {
- font-size: 55px !important;
-    margin-top: 44px;
-    padding-bottom: 16px;
-}
-.nivo-posttitle {
-    font-size: 1.1em !important;
-}
-.nivo-caption p {
-    margin-bottom: 30px;
-}
-.slider {
-   height: auto;
-        }
-#company-wraper {
-    padding: 50px 0;
-                }
-}
-
-@media only screen and (max-width: 1280px) {
-
-.nivo-title {
- font-size: 48px !important;
-    margin-top: 90px;
-    padding-bottom: 16px;
-}
-.nivo-posttitle {
-    font-size: 1em !important;
-}
-.nivo-caption p {
-    margin-bottom: 30px;
-}
-.slider {
-   height: auto;
-        }
-#company-wraper {
-    padding: 50px 0;
-                }
-}
-
-@media only screen and (max-width: 1170px) {
-
-.nivo-title {
-    font-size: 36px !important;
-    margin-top: 133px;
-    padding-bottom: 10px;
-                  }
-.nivo-posttitle {
-    font-size: 1.1em !important;
-}
-.nivo-caption p {
-    margin-bottom: 10px;
-}
-}
-
-@media only screen and (max-width: 1024px) { /*zabalen� bloku form�tov�n�*/
-
-h2, h3 {
-    font-size: 1.6em;
-    font-weight: bold;
-   }
-.jsn-bootstrap .jsn-form-content .message {
-    width: 100% !important;
-    max-width: 100% !important;
-}
-/*form�tov�n� registrovan� u�ivatel menu*/
-.nav.menuakcionar {
-    margin-right: 20px !important;
-    }
-div.username {
-	right: 255px;
-}
-
-ul.category-module li,
-ul.category-modulezprava li {
-	max-width: 300px;
-	margin-bottom: 70px;
-}
-.logout {
-	right: 110px;
-}
-
-.slider-content-wrapper {
-    margin-top: 0px;
-}
-/*konec form�tov�n� registrovan� ��sti*/
-/*form�tov�n� baneru*/
-.banner-wraper {
-    left: 0px;
-    bottom: 0px;
-    right: 0px;
-    top: 0px;
-    text-align: center;
-    overflow-y: visible !important;
-}
-
-.custombanner {
-    width: 260px;
-}
-.custombanner-logo p span {
-    font-size: 36px !important;
-}
-.custombanner-logo p img {
-    width: 160px !important;
-}
-/*form�tov�n� video*/
-.video-wraper {
-    padding-top: 55px;
-}
-
-.i-form2 {
-    left: 422px;
-}
-
-.customvideo {
-    margin-left: -38px;
-}
-.customvideotitle {
-    margin-left: 5px;
-}
-.customfooter {
-    margin-right: 25px;
-}
-.slider {
-   height: auto;
-        }
-#company-wraper {
-    padding: 50px 0;
-                }
-input#1.jsn-input-medium-fluid {
-    width: 76% !important;
-}
-input#2.email.jsn-input-medium-fluid {
-    width: 76% !important;
-}
-.controls .row-fluid .email {
-    width: 76% !important;
-}
-.jsn-master .jsn-input-xlarge-fluid {
-    width: 99%;
-}
-h1.sp-smart-title {
-   font-size: 2.1em !important;
-   margin-left: 10px;
-   max-width: 340px !important;
-   height: 130px;
-   margin-top: 55px;
-                }
-p.sp-smart-posttitle {
-   max-width: 340px !important;
-   font-size: 1.3em !important;
-   margin-top: 50px;
-                    }
-
-
-} /*konec zabalen� bloku form�tov�n�*/
-
-@media only screen and (max-width: 990px) { /*zabalen� bloku form�tov�n�*/
-li.item-101 {
-    display: none !important;
-}
-.navbar-nav li:nth-child(3) {
-	display: none !important;
-}
-.navbar-header a img {
-    position: absolute !important;
-    width: 101px !important;
-    left: 20px !important;
-    top: 21px !important;
-    z-index: 5000 !important;
-}
-.navbar-nav {
-    margin-left: -21em;
-}
-.navbar-nav li a {
-    margin: 0px 0px;
-}
-.modaltest {
-    left: 18em;
-}
-.icon-bar {
-background-color: #004d72;
-}
-.navbar-header {
-	float: none !important;
-}
-
-#header {
-	height: 40px !important;
-}
-.navbar-toggle {
-	margin-top: 0 !important;
-}
-.navbar-nav li, .nav>li {
-	float: right !important;
-	margin-left: 0em !important;
-	display: inline !important;
-}
-
-.slider-wrapper {
-     margin-top: 44px;
-}
-.nivo-posttitle {
-    font-size: 0.9em !important;
-}
-.certifikat img {
-    display: none;
-}
-.customvideo p {
-    width: 100%;
-             }
-.video1, .video2, .video3 {
-    padding: 50px 15px;
-    background-size: 60% !important;
-             }
-iframe {
-    width: 80% !important;
-    height: 80% !important;
-    display: inline;
-    margin-left: 40px;
-}
-/*form�tov�n� kontaktn�ho formul��e*/
-.jsn-uniform.jsn-master .jsn-bootstrap .jsn-form-content .control-group {
-    display: block;
-    width: 85%;
-    }
-.controls .jsn-input-medium-fluid {
-    width: 100% !important;
-    }
-.controls .row-fluid .email {
-    width: 100% !important;
-    margin-bottom: 4px;
-}
-.row-fluid {
-    margin-left: 0px !important;
-}
-.jsn-master .jsn-input-xlarge-fluid {
-    width: 100% !important;
-    max-width: 99% !important;
-}
-.footer-wraper {
-    background-color: #316d89 !important;
-                                     }
-}
-
-@media only screen and (max-width: 768px) { /*zabalen� bloku form�tov�n�*/
-
-h2, h3 {
-    font-size: 1.4em;
-    font-weight: bold;
-   }
-
-.navbar-nav li:nth-child(3) /*schov�n� st�edov�ho loga - odkazu na home*/{
-	display: none !important;
-}
-.nav>li>a>img {
-    background-size: 50%;
-              }
-
-/*form�tov�n� registrovan� u�ivatel menu*/
-.menuakcionar {
-    margin-right: 6px !important;
-    }
-
-.username {
-    left: 27em !important;
-    }
-/*konec form�tov�n� registrovan� ��sti*/
-
-/*form�tov�n� slideru*/
-.slider, .row-slider {
-    z-index: 10 !important;
-    max-height: 282px;
-    margin-top: 10px;
-		margin-bottom: 60px;
-}
-.nivo-title {
-   padding-top: 49px;
-   font-size: 32px !important;
-   margin-top: 90px;
-   max-width: 700px;
-   text-align: center;
-   padding-left: 120px;
-   padding-right: 120px;
-            }
-.nivo-posttitle {
-   font-size: 14px;
-                }
-.nivo-readmore {
-   font-size: 18px;
-}
-.nivo-caption p {
-    margin-bottom: 19px;
-}
-.nivoSlider {
-    margin-top: -40px;
-        z-index: 10 !important;
-            }
-.container-fluid {
-    margin-top: 49px !important;
-    max-height: 282px;
-            }
-.slider-wraper {
-    margin-top: 16px !important;
-
+ .container.zpravy {
+     min-height: 300px;
+     background: #fff;
+     height: auto;
  }
-.slider {
-   margin-top: 0px;
-   height: auto;
-   z-index: 1;
-        }
-/*form�tov�n� slideru v registrovan� ��sti*/
-.corpora-slider {
-    margin-top: 0px;
-    }
-h1.sp-smart-title {
-   font-size: 1.6em !important;
-   margin-left: 10px;
-   height: 130px;
-   margin-top: 97px;
-                }
-p.sp-smart-posttitle {
-   font-size: 1.2em !important;
-   max-width: 250px !important;
-   margin-top: 70px;
-                    }
-/*konec form�tov�n� slider�*/
-/*form�tov�n� baneru*/
-
-.custombanner-logo p span {
-    font-size: 26px !important;
-}
-
-.custombanner p span {
-    font-size: 18px !important;
-}
-
-div.row.banner.text-left {
-    width: 340px !important;
-}
-.custombanner {
-    margin-top: -10px;
-    margin-left: 0px;
-}
-
-.i-form2 {
-    left: -9px;
-		top: 106px;
-}
-
-.i-form3 {
-    top: 200px;
-}
-
-div.username {
-    right: 100px;
-}
-
-.logout {
-	right: 65px;
-}
-
-.layout-corpora {
-	overflow: visible;
-}
-
-.custombanner-logo p span {
-	padding-right: 15px;
-}
-/*form�tov�n� videa*/
-.customvideo p {
-    width: 100%;
-             }
-.video1, .video2, .video3 {
-    padding: 50px 15px;
-    background-size: 60% !important;
-             }
-iframe {
-    width: 80% !important;
-    height: 80% !important;
-    display: inline;
-    margin-left: 40px;
-}
-.customvideotitle {
-    margin-left: 30px;
-                  }
-/*form�tov�n� footeru*/
-.fakturace {
-    margin-top: 25px;
-           }
-.footer-box {
-    margin-left: 16px;
-                             }
-.kontakt-header {
-    margin-left: 30px;
-                             }
-
-#company-wraper {
-    padding: 50px 0;
-                }
-								#header {
-								    height: 50px !important;
-								}
-
-								.info-uvod {
-									margin-bottom: 50px;
-								}
-
-								p.sp-smart-posttitle {
-									max-width: 300px !important;
-								}
-								.custombanner-logo p img {
-    width: 155px !important;
-}
-}
-
-@media only screen and (max-width: 736px) {
-/*form�tov�n� menu registrovan� ��st*/
-.modaltest {
-    top: 111px;
-           }
-div.username {
-    top: -43px;
-             }
-.logout {
-    top: -65px;
-        }
-.container.zpravy {
-    margin-top: -10px;
-}
-
-/*form�tov�n� slideru*/
-.nivo-title {
-    font-size: 26px !important;
-    padding-top: 72px;
-            }
-/*form�tov�n� slideru v registrovan� ��sti*/
-.corpora-slider {
-    margin-top: 0px;
-    background-size: 121% !important;
-    }
-h1.sp-smart-title {
-   font-size: 1.5em !important;
-   margin-left: 10px;
-   height: 130px;
-   margin-top: 97px;
-                }
-p.sp-smart-posttitle {
-   font-size: 1em !important;
-   max-width: 250px !important;
-   margin-top: 80px;
-                    }
-/*konec form�tov�n� slider�*/
-/*form�tov�n� baneru*/
-.banner-wraper {
-   width: 736px;
-   overflow-y: visible !important;
-               }
-.custombanner-logo p span {
-    font-size: 26px !important;
-}
-.custombanner-logo p img {
-    width: 110px !important;
-}
-.custombanner p span {
-    font-size: 18px !important;
-}
-.custombanner-logo {
-    width: 400px !important;
-}
-div.row.banner.text-left {
-    width: 240px !important;
-}
-.custombanner {
-    width: 180px !important;
-    margin-top: -55px;
-    margin-left: 30px;
-}
-}
-
-@media only screen and (max-width: 667px){
-.nivo-caption {
-      width: 635px !important;
-              }
-.footer-box {
-    font-size: 14px;
-            }
-button.btn.btn-primary {
-    padding: 10px 20px !important;
-    font-size: 1.2em;
-}
-.custombanner {
-    margin-top: -55px !important;
-}
-}
-
-@media only screen and (max-width: 660px) { /*zabalen� bloku form�tov�n�*/
-.navbar-nav {
-    margin-left: 0em;
-}
-.banner-wraper {
-    height: 120px !important;
-    left: 0px;
-    bottom: 0px;
-    right: 0px;
-    top: 0px;
-    text-align: center;
-    width: 660px !important;
-    padding: 30px 20px !important;
-}
-.custombanner-logo p span {
-    font-size: 20px !important;
-}
-.custombanner-logo p img {
-    width: 110px !important;
-}
-.custombanner p span {
-    font-size: 18px !important;
-}
-.navbar-header {
-	float: none !important;
-}
-.text-center {
-  text-align: left;
-             }
-.navbar-header a img {
-  left: 0px !important;
-  top: 7px !important;
-                     }
-#header {
-	height: 40px !important;
-}
-.navbar-toggle {
-	margin-top: 0 !important;
-}
-}
-
-@media only screen and (max-width: 600px) {
-.navbar-nav {
-  margin: 0;
-            }
-.navbar-collapse {
-  overflow-x: visible !important;
-                 }
-.navbar-nav li, .nav>li {
-	float: right !important;
-	margin-left: 0px !important;
-	display: inline !important;
-  font-size: 14px;
-  overflow-x: visible;
-}
-li.item-147 {
-  padding-left: 0em !important;
-}
-.modaltest {
-    left: 24em;
-    top: 7.4em;
-    font-size: 14px;
-}
-/*form�tov�n� slideru*/
-
-.slider, .row-slider {
-    z-index: 10 !important;
-    margin-top: 25px;
-}
-.nivo-caption {
-    max-width: 600px;
-              }
-.nivoSlider {
-    margin-top: -60px;
-        z-index: 10 !important;
-            }
-.nivo-title {
-    padding-top: 72px;
-    font-size: 1.2em !important;
-    max-width: 560px;
-    margin-top: 90px;
-    height: 70px;
-    padding-bottom: 45px;
-}
-.nivo-caption p {
-    max-width: 580px;
-    margin-bottom: 19px;
-}
-.container-fluid {
-    margin-top: 80px !important;
-    max-height: 282px;
-            }
-.slider-wraper {
-    margin-top: 5px !important;
+ .logout {
+     display: block;
+     position: absolute;
+ 	 		top: 65px;
+     right: 228px;
+     color: #535353 !important;
+     text-transform: uppercase !important;
+     text-decoration: underline !important;
  }
-
-/*form�tov�n� slideru v registrovan� ��sti*/
-.username {
-    left: 24em !important;
-    top: -36px !important;
+ .logout:hover {
+     color: #ababab !important;
 }
-.logout {
-    top: -57px !important;
-    font-size: 0.9em !important;
-    left: 20.2em !important;
-}
-.info-uvod {
-    padding-bottom: 30px;
-           }
-.corpora-slider {
-   margin-top: 0px !important;
-                }
-h1.sp-smart-title {
-   font-size: 1.2em !important;
-   max-width: 200px !important;
-   margin-left: 10px;
-   height: 80px;
-   margin-top: 50px;
-                }
-p.sp-smart-posttitle {
-   font-size: 0.9em !important;
-   max-width: 200px !important;
-   margin-top: 40px;
-                    }
-.navbar-collapse.in {
-  /*border-bottom: 1px solid #004d72 !important;   */
-  overflow-y: visible;
-  overflow-x: visible;
-  height: 80px;
-}
-/*form�tov�n� 600px banner */
-.banner-wraper {
-    height: 120px !important;
-    left: 0px;
-    bottom: 0px;
-    right: 0px;
-    top: 0px;
-    text-align: center;
-    width: 660px !important;
-    padding: 30px 20px !important;
-}
-.custombanner-logo p span {
-    font-size: 20px !important;
-}
-.custombanner-logo {
-    margin-top: 0px !important;
-}
-.custombanner {
-    margin-top: -9px !important;
-}
-.custombanner-logo p img {
-    width: 110px !important;
-}
-.custombanner p span {
-    font-size: 18px !important;
-}
-#company-wraper {
-    padding: 70px 0 !important;
-}
-
-.customvideo p {
-    margin-left: 6px;
-    margin-bottom: 30px;
-    overflow-x: visible;
-}
-div p iframe {
-    height: 70% !important;
-    max-width: 70% !important;
-    width: 90% !important;
-}
-/*form�tov�n� 600px kontaktn� formul��*/
-.footer-box {
-    font-size: 13px;
-}
-.jsn-master .jsn-narrow .jsn-input-mini-fluid, .jsn-master .jsn-narrow .jsn-input-small-fluid, .jsn-master .jsn-narrow .jsn-input-medium-fluid, .jsn-master .jsn-narrow .jsn-input-xlarge-fluid, .jsn-master .jsn-narrow .jsn-input-fluid, .jsn-master .jsn-narrow .jsn-columns-container.jsn-columns-count-two .jsn-column-item, .jsn-master .jsn-narrow .jsn-columns-container.jsn-columns-count-three .jsn-column-item, .jsn-master .jsn-narrow .jsn-columns-container.jsn-columns-count-no .jsn-column-item, .jsn-master .jsn-bootstrap .jsn-narrow .input-small, .jsn-master .jsn-bootstrap .jsn-narrow .input-medium, .jsn-master .jsn-bootstrap .jsn-narrow .input-file, .jsn-master .jsn-bootstrap .jsn-narrow .jsn-column-item.jsn-uniform-others textarea.jsn-value-Others {
-    width: 100% !important;
-}
-.jsn-input-xlarge-fluid {
-    margin-left: 0px;
-}
-button.btn.btn-primary {
-    padding: 10px 17px !important;
-    font-size: 1.15em;
-}
-#jsn_form_1.jsn-master .jsn-bootstrap .jsn-form-content .control-group .controls input, #jsn_form_1.jsn-master .jsn-bootstrap .jsn-form-content .control-group .controls select, #jsn_form_1.jsn-master .jsn-bootstrap .jsn-form-content .control-group .controls textarea {
-    background-size: 16% !important;
-    padding: 12px;
-    padding-left: 60px !important;
-}
-.jsn-master .jsn-narrow .jsn-input-mini-fluid, .jsn-master .jsn-narrow .jsn-input-small-fluid, .jsn-master .jsn-narrow .jsn-input-medium-fluid, .jsn-master .jsn-narrow .jsn-input-xlarge-fluid, .jsn-master .jsn-narrow .jsn-input-fluid, .jsn-master .jsn-narrow .jsn-columns-container.jsn-columns-count-two .jsn-column-item, .jsn-master .jsn-narrow .jsn-columns-container.jsn-columns-count-three .jsn-column-item, .jsn-master .jsn-narrow .jsn-columns-container.jsn-columns-count-no .jsn-column-item, .jsn-master .jsn-bootstrap .jsn-narrow .input-small, .jsn-master .jsn-bootstrap .jsn-narrow .input-medium, .jsn-master .jsn-bootstrap .jsn-narrow .input-file, .jsn-master .jsn-bootstrap .jsn-narrow .jsn-column-item.jsn-uniform-others textarea.jsn-value-Others {
-    width: 97% !important;
-}
-input, textarea: {
-    font-size: 1.2em;
-                 }
-button.btn.btn-primary {
-    padding: 10px 15px !important;
-    font-size: 1em;
-}
-#jsn_form_1.jsn-master .jsn-bootstrap .jsn-form-content .control-group .controls input, #jsn_form_1.jsn-master .jsn-bootstrap .jsn-form-content .control-group .controls select, #jsn_form_1.jsn-master .jsn-bootstrap .jsn-form-content .control-group .controls textarea {
-    background-size: 12% !important;
-    padding: 12px;
-    padding-left: 60px !important;
-}
-.jsn-master .jsn-narrow .jsn-input-mini-fluid, .jsn-master .jsn-narrow .jsn-input-small-fluid, .jsn-master .jsn-narrow .jsn-input-medium-fluid, .jsn-master .jsn-narrow .jsn-input-xlarge-fluid, .jsn-master .jsn-narrow .jsn-input-fluid, .jsn-master .jsn-narrow .jsn-columns-container.jsn-columns-count-two .jsn-column-item, .jsn-master .jsn-narrow .jsn-columns-container.jsn-columns-count-three .jsn-column-item, .jsn-master .jsn-narrow .jsn-columns-container.jsn-columns-count-no .jsn-column-item, .jsn-master .jsn-bootstrap .jsn-narrow .input-small, .jsn-master .jsn-bootstrap .jsn-narrow .input-medium, .jsn-master .jsn-bootstrap .jsn-narrow .input-file, .jsn-master .jsn-bootstrap .jsn-narrow .jsn-column-item.jsn-uniform-others textarea.jsn-value-Others {
-    width: 97% !important;
-}
-input, textarea: {
-    font-size: 1.2em;
-                 }
-}
-
-@media only screen and (max-width: 568px) {
-/*menu*/
-.nivo-caption p {
-    max-width: 534px;
-    margin-bottom: -8px;
-    margin-right: 0px;
-}
-.nivo-title {
-    max-width: 554px;
-    }
-
-/*slider - ve�ejn�*/
-.corpora-slider {
-    margin-top: -18px !important;
-}
-.slider, .row-slider {
-    margin-top: 20px;
-}
-/*slider - registrovan� ��st*/
-.corpora-slider {
-    padding-bottom: 30px;
-}
-h1.sp-smart-title {
-    margin-top: 40px;
-}
-p.sp-smart-posttitle {
-    margin-top: 34px;
-}
-.custombanner-logo {
-    margin-top: 0px !important;
-}
-.custombanner {
-    margin-top: -2px !important;
-}
-
-.footer-box {
-    font-size: 12px;
-            }
-/*formul��-form�tov�n�*/
-button.btn.btn-primary {
-    padding: 10px 15px !important;
-    font-size: 1em;
-}
-#jsn_form_1.jsn-master .jsn-bootstrap .jsn-form-content .control-group .controls input, #jsn_form_1.jsn-master .jsn-bootstrap .jsn-form-content .control-group .controls select, #jsn_form_1.jsn-master .jsn-bootstrap .jsn-form-content .control-group .controls textarea {
-    background-size: 12% !important;
-    padding: 12px;
-    padding-left: 60px !important;
-}
-.jsn-master .jsn-narrow .jsn-input-mini-fluid, .jsn-master .jsn-narrow .jsn-input-small-fluid, .jsn-master .jsn-narrow .jsn-input-medium-fluid, .jsn-master .jsn-narrow .jsn-input-xlarge-fluid, .jsn-master .jsn-narrow .jsn-input-fluid, .jsn-master .jsn-narrow .jsn-columns-container.jsn-columns-count-two .jsn-column-item, .jsn-master .jsn-narrow .jsn-columns-container.jsn-columns-count-three .jsn-column-item, .jsn-master .jsn-narrow .jsn-columns-container.jsn-columns-count-no .jsn-column-item, .jsn-master .jsn-bootstrap .jsn-narrow .input-small, .jsn-master .jsn-bootstrap .jsn-narrow .input-medium, .jsn-master .jsn-bootstrap .jsn-narrow .input-file, .jsn-master .jsn-bootstrap .jsn-narrow .jsn-column-item.jsn-uniform-others textarea.jsn-value-Others {
-    width: 97% !important;
-}
-input, textarea: {
-    font-size: 1.2em;
-                 }
-}
-
-@media only screen and (max-width: 414px) {
-/*form�tov�n� header - kontakt a email*/
-.mail {
-     background-image: none;
-}
-.header-kontakt li {
-     padding-left: 0px !important;
-}
-.mobil {
-     background-image: none;
-}
-/*skryt� slideru a banneru*/
-.slider {
-     display: none;
-              }
-.banner-wraper {
-     display: none;
-              }
-}
-
-@media only screen and (max-width: 384px)
-
-@media only screen and (max-width: 375px)
-
-@media only screen and (max-width: 320px) /*na ���ku*/ {
-/*form�tov�n� header - kontakt a email*/
-ul.header-kontakt {
-     display: none !important;
-}
-li.mail {
-     display: none !important;
-}
-li.mobil {
-     display: none !important;
-}
-.header-kontakt li {
-     display: none;
-}
-}
-
-@media only screen and (max-width: 320px) /*na v��ku*/  {
-/*form�tov�n� header - kontakt a email*/
-ul.header-kontakt {
-     display: none !important;
-}
-li.mail {
-     display: none !important;
-}
-li.mobil {
-     display: none !important;
-}
-.header-kontakt li {
-     display: none;
-}
-
-.video-wraper {
-	background: none;
-}
-.customvideo {
-    margin-left: 0px;
-}
-.i-form1, .i-form2, .i-form3 {
-	display: none;
-}
-}
-
-@media only screen and (max-width: 240px)
