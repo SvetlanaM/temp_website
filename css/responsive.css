@@ -480,3 +480,57 @@ div#sp-smart-slider121,
 div#sp-smart-slider123  {
     margin-top: -70px;
 }
+
+@media only screen and (max-width: 600px) {
+  .navbar-nav {
+    margin-left: -19em;
+}
+
+.username {
+    left: 18em !important;
+    font-size: 12px;
+}
+
+a.logout {
+  right: 80px;
+  font-size: 12px;
+}
+
+.nivo-title {
+      max-width: 600px;
+}
+
+p.nivo-posttitle {
+  padding-right: 27px;
+    margin-right: 96px;
+    padding-left: 21px;
+}
+
+.custombanner-logo p img {
+    width: 86px !important;
+}
+
+.footer-wraper {
+    background-position: top center;
+    background-size: cover;
+}
+
+.controls .row-fluid .email {
+      width: 123% !important;
+}
+
+.jsn-master .jsn-input-xlarge-fluid,
+.jsn-master .jsn-narrow .jsn-input-xlarge-fluid {
+    width: 115% !important;
+        padding-left: 15px;
+}
+
+.slider-title {
+  font-size: 12px;
+}
+
+p.sp-smart-posttitle {
+  margin-top: 95px;
+}
+
+}
