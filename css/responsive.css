@@ -556,6 +556,10 @@ a.modal.modaltest {
   margin-left: -17em;
 }
 
+.menunav {
+  display: none;
+}
+
 .custombanner-logo {
     padding-right: 35px;
   }
@@ -647,6 +651,11 @@ ul.nav.menuakcionar {
   input.input-small {
     width: 100%;
     padding-left: 12px;
+}
+
+.navbar-header a img {
+    position: absolute !important;
+    width: 83px !important;
 }
 
 }
