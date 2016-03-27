@@ -481,6 +481,11 @@ div#sp-smart-slider123  {
     margin-top: -70px;
 }
 
+a.modal.modaltest {
+  font-size: 14px;
+}
+}
+
 @media only screen and (max-width: 600px) {
   ul.category-module li {
     max-width: 100%;
@@ -534,6 +539,14 @@ p.nivo-posttitle {
 
 p.sp-smart-posttitle {
   margin-top: 95px;
+}
+
+a.modal.modaltest {
+  font-size: 12px;
+}
+
+.btn-toolbar {
+    margin-left: -23px !important;
 }
 
 }
@@ -609,9 +622,17 @@ div#sp-smart-slider121  {
 ul.nav.menuakcionar {
     margin-top: -23px;
 }
+
+.row.footer-box {
+  font-size: 14px;
 }
 
-@media only screen and (max-width: 375px) {
+.btn-toolbar {
+    margin-left: 11px !important;
+}
+}
+
+@media only screen and (max-width: 384px) {
 
 
     .mail, .mobil {
@@ -660,6 +681,29 @@ ul.nav.menuakcionar {
     width: 122% !important;
         padding-left: 15px;
 }
+
+.btn-toolbar {
+    margin-left: -4px !important;
+}
+
+.mail, .mobil {
+  background: none;
+}
+
+.row.footer-box {
+    font-size: 12px;
+}
+
+.controls .row-fluid .email {
+    width: 100% !important;
+}
+
+}
+
+@media all and (max-width: 375px) {
+  button.btn.btn-primary {
+    width: 113% !important;
+}
 }
 
 @media only screen and (max-width: 320px) {
@@ -707,5 +751,13 @@ iframe {
     padding: 10px 30px !important;
     width: 99% !important;
     float: left;
+}
+
+.row.footer-box {
+    font-size: 10px;
+}
+
+.btn-toolbar {
+    margin-left: -3px !important;
 }
 }
